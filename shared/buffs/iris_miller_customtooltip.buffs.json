@@ -1,0 +1,135 @@
+{
+   "buffs":
+   [
+      {
+         "id" : "IRM_MC_Forward_TT", "stat_type" : "upgrade_discount", "stat_sub_type" : "miller_command_forward_TT",
+         "amount" : 1, "remove_if_not_active" : false,
+         "duration" : 1, "duration_type" : "after_turn", 
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
+      },
+      {
+         "id" : "IRM_MC_Unstun_TT", "stat_type" : "upgrade_discount", "stat_sub_type" : "miller_command_unstun_TT",
+         "amount" : 1, "remove_if_not_active" : false,
+         "duration" : 1, "duration_type" : "after_turn", 
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
+      },
+      {
+         "id" : "IRM_Harvest_TT", "stat_type" : "upgrade_discount", "stat_sub_type" : "harvest_onkill_TT",
+         "amount" : 1, "remove_if_not_active" : false,
+         "duration" : 1, "duration_type" : "after_turn", 
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
+      },
+      {
+         "id" : "IRM_DO_CD_TT", "stat_type" : "upgrade_discount", "stat_sub_type" : "dayoff_cooldown_TT",
+         "amount" : 1, "remove_if_not_active" : false,
+         "duration" : 1, "duration_type" : "after_turn", 
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
+      },
+      {
+         "id" : "IRM_DO_CD_Buff_TT", "stat_type" : "upgrade_discount", "stat_sub_type" : "dayoff_cooldown_buff_TT",
+         "amount" : -1, "remove_if_not_active" : false, "is_clear_debuff_valid": false, "remove_on_battle_complete" : true,
+         "duration" : 1, "duration_type" : "after_turn", 
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
+      },
+      {
+         "id" : "IRM_Reaping_Hit_TT", "stat_type" : "upgrade_discount", "stat_sub_type" : "reaping_hit_TT",
+         "amount" : -1, "remove_if_not_active" : false,
+         "duration" : 1, "duration_type" : "after_turn", 
+         "rule_type" : "target_hpbelow", "is_false_rule" : false, "rule_data" : { "float" : 0.3, "string" : "" }
+      },
+      {
+         "id" : "IRM_IB_Riposte_TT1", "stat_type" : "upgrade_discount", "stat_sub_type" : "immortal_beloved_riposte_TT1",
+         "amount" : -1, "remove_if_not_active" : false,
+         "duration" : 1, "duration_type" : "after_turn", 
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
+      },
+      {
+         "id" : "IRM_IB_Riposte_TT2_1", "stat_type" : "upgrade_discount", "stat_sub_type" : "immortal_beloved_riposte_TT2_1",
+         "amount" : -1, "remove_if_not_active" : false,
+         "duration" : 1, "duration_type" : "after_turn", 
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
+      },
+      {
+         "id" : "IRM_IB_Riposte_TT2_2", "stat_type" : "upgrade_discount", "stat_sub_type" : "immortal_beloved_riposte_TT2_2",
+         "amount" : -1, "remove_if_not_active" : false,
+         "duration" : 1, "duration_type" : "after_turn", 
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
+      },
+      {
+         "id" : "IRM_IB_Riposte_TT2_3", "stat_type" : "upgrade_discount", "stat_sub_type" : "immortal_beloved_riposte_TT2_3",
+         "amount" : -1, "remove_if_not_active" : false,
+         "duration" : 1, "duration_type" : "after_turn", 
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
+      },
+      {
+         "id" : "IRM_IB_Riposte_TT2_4", "stat_type" : "upgrade_discount", "stat_sub_type" : "immortal_beloved_riposte_TT2_4",
+         "amount" : -1, "remove_if_not_active" : false,
+         "duration" : 1, "duration_type" : "after_turn", 
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
+      },
+      {
+         "id" : "IRM_IB_Riposte_TT2_5", "stat_type" : "upgrade_discount", "stat_sub_type" : "immortal_beloved_riposte_TT2_5",
+         "amount" : -1, "remove_if_not_active" : false,
+         "duration" : 1, "duration_type" : "after_turn", 
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
+      },
+      {
+         "id" : "IRM_IB_Riposte_TT3", "stat_type" : "upgrade_discount", "stat_sub_type" : "immortal_beloved_riposte_TT3",
+         "amount" : -1, "remove_if_not_active" : false,
+         "duration" : 1, "duration_type" : "after_turn", 
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
+      },
+      {
+         "id" : "IRM_IB_Riposte_TT4", "stat_type" : "upgrade_discount", "stat_sub_type" : "immortal_beloved_riposte_TT4",
+         "amount" : -1, "remove_if_not_active" : false,
+         "duration" : 1, "duration_type" : "after_turn", 
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
+      },
+      {
+         "id" : "IRM_IB_Riposte_Buff_TT_1", "stat_type" : "upgrade_discount", "stat_sub_type" : "immortal_beloved_riposte_buff_TT1",
+         "amount" : 1, "remove_if_not_active" : false,
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
+      },
+      {
+         "id" : "IRM_IB_Riposte_Buff_TT_2", "stat_type" : "upgrade_discount", "stat_sub_type" : "immortal_beloved_riposte_buff_TT2",
+         "amount" : 1, "remove_if_not_active" : false,
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
+      },
+      {
+         "id" : "IRM_IB_Riposte_Buff_TT_3", "stat_type" : "upgrade_discount", "stat_sub_type" : "immortal_beloved_riposte_buff_TT3",
+         "amount" : 1, "remove_if_not_active" : false,
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
+      },
+      {
+         "id" : "IRM_IB_Riposte_Buff_TT_4", "stat_type" : "upgrade_discount", "stat_sub_type" : "immortal_beloved_riposte_buff_TT4",
+         "amount" : 1, "remove_if_not_active" : false,
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
+      },
+      {
+         "id" : "IRM_IB_Riposte_Buff_TT_5", "stat_type" : "upgrade_discount", "stat_sub_type" : "immortal_beloved_riposte_buff_TT5",
+         "amount" : 1, "remove_if_not_active" : false,
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
+      },
+      
+      {
+         "id" : "TRINKET_miller_common_TT", "stat_type" : "upgrade_discount", "stat_sub_type" : "miller_common_TT",
+         "amount" : 1, "remove_if_not_active" : false,
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
+      },
+      {
+         "id" : "TRINKET_miller_rare_TT_1", "stat_type" : "upgrade_discount", "stat_sub_type" : "miller_rare_TT_1",
+         "amount" : 1, "remove_if_not_active" : false,
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
+      },
+      {
+         "id" : "TRINKET_miller_rare_TT_2", "stat_type" : "upgrade_discount", "stat_sub_type" : "miller_rare_TT_2",
+         "amount" : 1, "remove_if_not_active" : false,
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
+      },
+      {
+         "id" : "TRINKET_miller_CC2_TT", "stat_type" : "upgrade_discount", "stat_sub_type" : "miller_CC2_TT",
+         "amount" : 1, "remove_if_not_active" : false,
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
+      }
+   ]
+}

@@ -1,0 +1,10 @@
+{
+    "event_guid_overrides":
+    [
+        {"event_id": "event:/vo/bad/afflicted_miller_fractured",	"guid_override":"{31cd2b0e-ffae-4a31-ac7b-92e3db250f5f}"},
+        {"event_id": "event:/vo/bad/afflicted_miller_refracted",	"guid_override":"{4922d251-90bb-4ee9-8b4f-d4db1f4fc193}"},
+        {"event_id": "event:/vo/good/virtue_miller_luminous",	    "guid_override":"{7498d7dc-5831-49bd-917b-cefa80c4f69d}"},
+        {"event_id": "event:/vo/town/recruit_miller",				"guid_override":"{bd84e2bf-8dcc-4851-8754-a25c97b20305}"},
+        {"event_id": "event:/vo/town_event/miller_north_blaze",		"guid_override":"{67f1a3ff-b98d-495d-a3c9-ff5ec07a4967}"}
+	]
+}

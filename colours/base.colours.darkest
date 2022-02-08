@@ -1,0 +1,651 @@
+colour: .id "button_highlight"								.hvec4 1.5 1.5 1.3 1.0
+
+
+colour:	.id "red"		 				                            .rgba #ff3a3a
+colour:	.id "blue"		 				                            .rgba #2364c6
+colour:	.id "green"		 				                            .rgba #6be042
+colour:	.id "yellow"		 			                            .rgba #f8d047
+colour: .id "white"                                                 .rgba	255 255 255	255
+colour:	.id "neutral" 												.rgba	174 172 162	255
+colour:	.id "notable" 												.rgba	200 180	110 255
+colour:	.id "harmful" 												.rgba	177 25 	0   255
+colour:	.id "stress" 												.rgba	#e0ddce
+colour:	.id "stun" 													.rgba	#c99c45
+colour:	.id "move" 													.rgba #4c8ba2
+colour:	.id "blight" 											  	.rgba	#bdc241
+colour:	.id "bleed" 												.rgba #b10000
+colour:	.id "debuff" 												.rgba #c3630f
+colour:	.id "buff" 													.rgba	#5ec9d6
+colour:	.id "mark" 													.rgba #b10000
+colour:	.id "deathdoor" 											.rgba #b10000
+colour:	.id "deathblow" 											.rgba #b10000
+colour:	.id "disease" 												.rgba	177 25 	0 	255
+colour:	.id "virtue"		 										.rgba	#e0ddce
+colour:	.id "afflicted"		 										.rgba	177 25 	0 	255
+colour:	.id "scouting"		 								  	    .rgba #55998b
+colour:	.id "surprised"		 										.rgba #55998b
+colour:	.id "riposte"		 								  		.rgba #c3630f
+colour:	.id "guard"		 									  		.rgba	#5ec9d6
+colour:	.id "specificclass"		 								    .rgba #8d7b5f
+colour:	.id "knockback"		 										.rgba #4c8ba2
+colour:	.id "attacktype"		 									.rgba #8d7b5f
+colour:	.id "trap"		 									  		.rgba	#8860b2
+colour:	.id "healhp"		 								  		.rgba	#87c241
+colour:	.id "mortaldebuff"		 								  	.rgba	#c3630f
+colour:	.id "stealth"		 								    	.rgba	#443f86
+colour: .id "miasma"												.rgba   #38ada8
+colour:	.id "stressNOT1" 											.shared_id "stress"
+colour:	.id "stunNOT1" 												.shared_id "stuh"
+colour:	.id "moveNOT1" 												.shared_id "move"
+colour:	.id "blightNOT1" 											.shared_id "blight"
+colour:	.id "bleedNOT1" 											.shared_id "bleed"
+colour:	.id "debuffNOT1" 											.shared_id "debuff"
+colour:	.id "buffNOT1" 												.shared_id "buff"
+colour:	.id "markNOT1" 												.shared_id "mark"
+colour:	.id "deathdoorNOT1" 									    .shared_id "deathdoor"
+colour:	.id "deathblowNOT1" 									    .shared_id "deathblow"
+colour:	.id "diseaseNOT1" 										    .shared_id "disease"
+colour:	.id "virtueNOT1"	 										.shared_id "virtue"
+colour:	.id "afflictedNOT1"		 								    .shared_id "afflicted"
+colour:	.id "scoutingNOT1"		 								    .shared_id "scouting"
+colour:	.id "surprisedNOT1"		 								    .shared_id "surprised"
+colour:	.id "riposteNOT1"		 									.shared_id "riposte"
+colour:	.id "guardNOT1"		 										.shared_id "guard"
+colour:	.id "specificclassNOT1"		 						        .shared_id "specificclass"
+
+colour: .id "help_bracket_text"								        .shared_id "notable"
+colour: .id "help_text"												.shared_id "neutral"
+colour: .id "help_panel_controls"									.shared_id "neutral"
+
+colour:	.id "inventory_amount"										.shared_id "notable"
+colour:	.id "inventory_amount_unselectable"							.rgba #5d5a50
+colour:	.id "inventory_amount_deduct"								.rgba 	177 161	108 255
+colour: .id "inventory_selectable"									.rgba  	#fff				.saturation 1.0
+colour: .id "inventory_selected"									.hvec4 	1.4 1.4 1.7 1.0		.saturation 1.0
+colour: .id "inventory_unselectable"								.rgba 	#666				.saturation 0.2
+colour: .id "inventory_shift_click_remove_item"						.shared_id "harmful"
+colour: .id "inventory_tooltip_gold_value"							.shared_id "notable"
+
+colour:	.id "torch_centre"											.rgba	#ff7a00
+colour:	.id "torch_ends"											.rgba	#5f0400
+colour: .id "torch_reduce_tip"                                      .rgba	70	70	70	255 
+colour: .id "torch_snuff_tip"                                       .rgba	70	70	70	255 
+colour:	.id "ability_invalid"										.rgba	70	70	70	255 
+colour: .id "bark_neutral"											.shared_id "neutral"
+colour: .id "bark_affllicted"										.shared_id "harmful"
+colour: .id "bark_virtued"											.shared_id "notable"
+colour: .id "bark_cursed"											.shared_id "harmful"
+colour: .id "user_information_neutral"								.rgba	143 8 	0 	255
+
+colour: .id "curio_investigate_hand_disabled"						.rgba 	#666				.saturation 0.2
+colour: .id "curio_investigate_text"						        .shared_id "notable"
+colour: .id "curio_investigate_tooltip"						        .shared_id "neutral"
+colour: .id "curio_pass_text"				        		        .shared_id "neutral"
+colour: .id "curio_pass_tooltip"	        					    .shared_id "neutral"
+
+colour: .id "obstacle_investigate_text"						        .shared_id "neutral"
+colour: .id "obstacle_investigate_tooltip"						    .shared_id "neutral"
+colour: .id "obstacle_pass_text"				        		    .shared_id "neutral"
+colour: .id "obstacle_pass_tooltip"	        					    .shared_id "neutral"
+
+colour: .id "ancestor_obstacle_investigate_text"					.shared_id "neutral"
+colour: .id "ancestor_obstacle_investigate_tooltip"				    .shared_id "neutral"
+
+colour: .id "town_name"												.shared_id "notable"
+colour: .id "town_progression_forward"								.shared_id "harmful"
+colour: .id "town_navigation_button_unselected"						.darkness 0.8				.saturation 0.2
+
+colour: .id "town_roster_portrait_selectable"						.darkness 1.0				.saturation 1.0
+colour: .id "town_roster_portrait_unselectable"						.darkness 0.4				.saturation 0.2
+colour: .id "town_roster_name"										.shared_id "notable"
+colour: .id "town_roster_number"									.shared_id "neutral"
+colour: .id "town_roster_affliction"								.rgba	255	255	255	255
+
+colour: .id "character_panel_name_normal"							.shared_id "notable"
+colour: .id "character_panel_name_editing"							.rgba	#ece9dc
+colour: .id "character_panel_position_pips_title"					.shared_id "neutral"
+colour: .id "character_panel_target_pips_title"						.shared_id "neutral"
+colour: .id "character_panel_palette_number"                        .shared_id "neutral"
+colour: .id "character_panel_previous_next_tooltip"                 .shared_id "neutral"
+colour: .id "character_panel_edit_disabled"                         ".darkness	0.4				.saturation 0.0
+
+colour: .id "town_quest_select_dungeon_name"						.shared_id "notable"
+colour: .id "town_quest_select_dungeon_level"						.shared_id "neutral"
+colour: .id "town_quest_select_xp_bar_gradient_left"				.rgba	#8e0300
+colour:	.id "town_quest_select_xp_bar_gradient_right"				.rgba	#eb1600
+colour:	.id "town_quest_select_xp_bar_gradient_background"			.rgba	0	0	0	255
+colour: .id "town_quest_select_party_name"							.shared_id	notable
+colour: .id "town_quest_select_party_name_default"					.rgba #5d5a50
+
+colour: .id "town_quest_name"										.shared_id "notable"
+colour:	.id "town_quest_description"								.shared_id "neutral"
+colour: .id "town_quest_specifics"									.shared_id "neutral"
+colour: .id "town_quest_camping"									.shared_id "notable"
+colour: .id "town_quest_camping_tooltip"							.shared_id "neutral"
+colour: .id "town_quest_goals"										.shared_id "neutral"
+colour: .id "town_quest_goal_start_description"						.shared_id "neutral"
+colour:	.id "town_quest_rewards"									.shared_id "notable"
+colour:	.id "town_quest_trinket_retention"							.shared_id "notable"
+
+colour: .id "town_activity_name"									.shared_id "notable"
+colour:	.id "town_activity_description"								.shared_id "neutral"
+
+colour: .id "caretaker_goal_type_heading"							.shared_id "notable"
+colour: .id "caretaker_goal_completed"								.shared_id "notable"
+colour: .id "caretaker_goal_not_completed"							.shared_id "neutral"
+
+colour:	.id "town_currency_amount"									.shared_id "notable"
+colour: .id "town_currency_cant_afford_amount"						.shared_id "harmful"
+colour:	.id "town_free"									            .shared_id "notable"
+
+colour: .id "town_action_banner_name"								.shared_id "notable"
+colour: .id "town_action_banner_help"								.rgba	#333333
+colour: .id "town_action_verbose_title_text"						.shared_id "notable"
+colour: .id "town_action_verbose_body_text"							.shared_id "neutral"
+
+colour: .id "town_building_info"									.rgba #5d5a50
+colour: .id "town_building_upgrade_verbose"							.shared_id "neutral"
+colour: .id "town_building_upgrade_title"							.shared_id "notable"
+colour: .id "town_building_upgrade_percent"							.shared_id "notable"
+
+colour: .id "skill_selected"										.hvec4	1.5 1.5 1.3 1.0		.saturation 1.0
+colour: .id "skill_selectable"										.darkness	1.0				.saturation 1.0
+colour: .id "skill_unselectable"									.darkness	0.4				.saturation 0.0
+
+colour:	.id "skill_pip_default"										.rgba #3d3b38
+colour: .id "skill_pip_party"										.shared_id "notable"
+colour: .id "skill_pip_monsters"									.shared_id "harmful"
+
+colour:	.id "town_activity_log_entry"								.shared_id "neutral"
+colour:	.id "town_activity_log_building_name"						.shared_id "notable"
+colour:	.id "town_activity_log_character_name"						.shared_id "notable"
+colour:	.id "town_activity_log_story"								.shared_id "town_activity_log_entry"
+colour:	.id "town_activity_log_positive_result"						.shared_id "notable"
+colour:	.id "town_activity_log_negative_result"						.shared_id "harmful"
+colour: .id "town_activity_log_week_title"							.shared_id "notable"
+colour: .id "town_activity_hero_slot_tooltip"						.shared_id "neutral"
+
+colour:	.id "town_statue_archive_entry"								.shared_id "neutral"
+colour:	.id "town_statue_media_heading"								.shared_id "neutral"
+colour:	.id "town_statue_archive_locked_entry"						.darkness 0.4				.saturation 0.2
+colour:	.id "town_statue_quote"						                .shared_id "notable"
+
+colour: .id "lighting_none_base"									.rgba	255 255 255 255
+colour:	.id "lighting_none_half"									.rgba	200 200 200 255
+colour:	.id	"lighting_none_edge"									.rgba	75 75 75 255
+
+colour: .id "lighting_full_base"									.rgba	255 255 255 255
+colour:	.id "lighting_full_half"									.rgba	200 200 200 255
+colour:	.id	"lighting_full_edge"									.rgba	75 75 75 255
+
+colour: .id "resolve_gradient_bottom"								.rgba	#6d6a5e
+colour: .id "resolve_gradient_top"									.rgba	#aea996
+colour:	.id "resolve_new"											.rgba	255 255 255 255
+colour:	.id "resolve_number"										.rgba	0 0 0 255
+colour: .id "resolve_tooltip_level"									.shared_id "neutral"
+colour: .id "resolve_tooltip_xp"									.shared_id "neutral"
+colour: .id "resolve_tooltip_affliction"							.shared_id "harmful"
+colour: .id "resolve_tooltip_additional"							.shared_id "neutral"
+
+colour:	.id "town_choice_activity_choice"							.shared_id "notable"
+colour:	.id "town_choice_activity_selected_choice"					.rgba	255 0	0	255
+colour: .id "town_choice_activity_choice_tooltip"					.shared_id "neutral"
+
+colour:	.id "town_estate_title"										.rgba #5d5a50
+colour:	.id "town_estate_title_navigation_unselectable"				.rgba	#666
+
+colour: .id "town_start_raid"										.rgba	177 161	108 255
+
+colour: .id "upgrade_tree_tooltip_title"							.shared_id "notable"
+colour: .id "upgrade_tree_tooltip_body"								.shared_id "neutral"
+colour:	.id "upgrade_tree_icon_not_purchased"						.darkness	0.4				.saturation 0.0
+colour:	.id "upgrade_tree_prerequisite_not_purchased"				.shared_id "harmful"
+
+
+colour: .id "error_not_localized"									.rgba	0 255 255 255
+colour: .id "error_string_too_wide"									.rgba	255 105 180 255
+
+colour: .id "town_character_name"									.shared_id "notable"
+colour: .id "town_character_class"									.shared_id "neutral"
+colour: .id "town_character_skill_level"							.shared_id "notable"
+colour: .id "town_character_title"									.shared_id "notable"
+
+colour:	.id "town_upgrade_tree_title"								.shared_id "notable"
+
+colour: .id "raid_results_quest_title"								.shared_id "notable"
+colour: .id "raid_results_quest_result_was_completed"				.shared_id "notable"
+colour: .id "raid_results_quest_result_was_not_completed_escape"	.rgba	0 0 0 255
+colour: .id "raid_results_quest_result_was_not_completed_defeat"	.shared_id "harmful"
+colour: .id "raid_results_quest_result_was_not_completed_regroup"	.shared_id "neutral"
+colour: .id "raid_results_quest_inventory_title"					.shared_id "notable"
+colour: .id "raid_results_party_gold_inventory_title"				.shared_id "notable"
+colour: .id "raid_results_party_heirloom_inventory_title"			.shared_id "notable"
+colour: .id "raid_results_hero_name"								.shared_id "notable"
+colour: .id "raid_results_hero_resolve_from_quest"					.rgba #b5af9c
+colour: .id "raid_results_gold_popup"								.shared_id "notable"
+
+colour: .id "raid_retreat_button_unselectable"						.darkness	0.4				.saturation 0.2
+colour: .id "raid_retreat_tooltip"									.shared_id "neutral"
+
+colour: .id "trap_announcement"										.shared_id "harmful"
+colour: .id "disarm_announcement"									.shared_id "notable"
+
+colour: .id "scouting_text"											.shared_id "notable"
+
+colour: .id "confirm_dialog_question"								.shared_id "neutral"
+colour: .id "confirm_dialog_answer"									.shared_id "neutral"
+
+colour: .id "tray_health_bar_background_bottom"						.rgba	45 45 45 255
+colour: .id "tray_health_bar_background_top"						.rgba	18 18 18 255
+.
+colour: .id "tray_health_bar_default_damage_bottom"					.rgba	#a32a00
+colour: .id "tray_health_bar_default_damage_top"					.rgba	#ffa500
+colour: .id "tray_health_bar_default_heal_bottom"					.rgba	#004e21
+colour: .id "tray_health_bar_default_heal_top"						.rgba	#00e500
+colour: .id "tray_health_bar_default_current_bottom"				.rgba	#150000
+colour: .id "tray_health_bar_default_current_top"					.rgba	#cd0000
+
+colour: .id "tray_health_bar_corpse_damage_bottom"					.rgba	#808080
+colour: .id "tray_health_bar_corpse_damage_top"						.rgba	#F0F0F0
+colour: .id "tray_health_bar_corpse_heal_bottom"					.rgba	#808080
+colour: .id "tray_health_bar_corpse_heal_top"						.rgba	#F0F0F0
+colour: .id "tray_health_bar_corpse_current_bottom"					.rgba	#202020
+colour: .id "tray_health_bar_corpse_current_top"					.rgba	#606060
+
+colour: .id "tray_status_bar_tooltip_health"						.shared_id "harmful"
+colour: .id "tray_status_bar_tooltip_stress"						.shared_id "neutral"
+colour: .id "tray_status_bar_tooltip_turns_remaining"				.shared_id "neutral"
+colour: .id "tray_icon_tooltip_positive"							.shared_id "notable"
+colour: .id "tray_icon_tooltip_negative"							.shared_id "harmful"
+
+colour: .id "pop_text_stress_reduce"								.rgba #fdf8c7
+colour: .id "pop_text_outline_stress_reduce"						.rgba #7c663f
+colour: .id "pop_text_stress_damage"								.rgba #000000
+colour: .id "pop_text_outline_stress_damage"						.rgba #c2c2c2
+colour: .id "pop_text_miss"											.rgba #000000
+colour: .id "pop_text_outline_miss"									.rgba #9a988f
+colour: .id "pop_text_no_damage"									.rgba #920400
+colour: .id "pop_text_outline_no_damage"							.rgba #1e0400
+colour: .id "pop_text_crit_damage"									.rgba #ff7100
+colour: .id "pop_text_outline_crit_damage"							.rgba #480800
+colour: .id "pop_text_damage"										.rgba #e30900
+colour: .id "pop_text_outline_damage"								.rgba #390000
+colour: .id "pop_text_deathblow"									.rgba #ff7100
+colour: .id "pop_text_outline_deathblow"							.rgba #480800
+colour: .id "pop_text_death_avoided"								.rgba #920400
+colour: .id "pop_text_outline_death_avoided"						.rgba #1e0400
+colour: .id "pop_text_resist"										.rgba #000000
+colour: .id "pop_text_outline_resist"								.rgba #9a988f
+colour: .id "pop_text_disease_resist"								.rgba #000000
+colour: .id "pop_text_outline_disease_resist"						.rgba 173 201 98 255
+colour: .id "pop_text_pass"											.rgba #000000
+colour: .id "pop_text_outline_pass"									.rgba #9a988f
+colour: .id "pop_text_hero_heal"									.rgba #4fcb4f
+colour: .id "pop_text_outline_hero_heal"							.rgba #2a4416
+colour: .id "pop_text_hero_heal_crit"								.rgba #54ff70
+colour: .id "pop_text_outline_hero_heal_crit"						.rgba #05644f
+colour: .id "pop_text_monster_heal"									.rgba #4fcb4f
+colour: .id "pop_text_outline_monster_heal"							.rgba #2a4416
+colour: .id "pop_text_monster_heal_crit"							.rgba #54ff70
+colour: .id "pop_text_outline_monster_heal_crit"					.rgba #05644f
+colour: .id "pop_text_buff"											.rgba #79f8ff
+colour: .id "pop_text_outline_buff"									.rgba #127298
+colour: .id "pop_text_debuff"										.rgba #e26826
+colour: .id "pop_text_outline_debuff"								.rgba #7f290b
+colour: .id "pop_text_stun"											.rgba #f0cf5a
+colour: .id "pop_text_outline_stun"									.rgba #8e5b11
+colour: .id "pop_text_stun_clear"									.rgba #f0cf5a
+colour: .id "pop_text_outline_stun_clear"							.rgba #8e5b11
+colour: .id "pop_text_poison"										.rgba #c6ff57
+colour: .id "pop_text_outline_poison"								.rgba #545828
+colour: .id "pop_text_bleed"										.rgba #e30900
+colour: .id "pop_text_outline_bleed"								.rgba #390000
+colour: .id "pop_text_cured"										.rgba #fdf8c7
+colour: .id "pop_text_outline_cured"								.rgba #7c663f
+colour: .id "pop_text_cure_failed"									.rgba #e26826
+colour: .id "pop_text_outline_cure_failed"							.rgba #7f290b
+colour: .id "pop_text_tagged"										.rgba #e30900
+colour: .id "pop_text_outline_tagged"								.rgba #390000
+colour: .id "pop_text_riposte"										.rgba #e30900
+colour: .id "pop_text_outline_riposte"								.rgba #390000
+colour: .id "pop_text_guard"										.rgba #79f8ff
+colour: .id "pop_text_outline_guard"								.rgba #127298
+colour: .id "pop_text_guard_failed"									.rgba #e26826
+colour: .id "pop_text_outline_guard_failed"							.rgba #7f290b
+colour: .id "pop_text_full"			        						.rgba #000000
+colour: .id "pop_text_outline_full"			        				.rgba #9a988f
+colour: .id "pop_text_heart_attack"			        				.rgba #000000
+colour: .id "pop_text_outline_heart_attack"			        		.rgba #ffffff
+colour: .id "pop_text_move_resist"									.rgba #000000
+colour: .id "pop_text_outline_move_resist"							.rgba #79f8ff
+colour: .id "pop_text_debuff_resist"								.rgba #000000
+colour: .id "pop_text_outline_debuff_resist"						.rgba #e26826
+colour: .id "pop_text_stun_resist"									.rgba #000000
+colour: .id "pop_text_outline_stun_resist"							.rgba #f0cf5a
+colour: .id "pop_text_poison_resist"								.rgba #000000
+colour: .id "pop_text_outline_poison_resist"						.rgba #c6ff57
+colour: .id "pop_text_bleed_resist"									.rgba #000000
+colour: .id "pop_text_outline_bleed_resist"							.rgba #e30900
+colour: .id "pop_text_heal_failed"									.rgba #000000
+colour: .id "pop_text_outline_heal_failed"							.rgba #4fcb4f
+colour: .id "pop_text_stress_dot"							        .rgba #000000
+colour: .id "pop_text_outline_stress_dot"					        .rgba #c2c2c2
+colour: .id "pop_text_stress_dot_resist"							.rgba #000000
+colour: .id "pop_text_outline_stress_dot_resist"					.rgba #c2c2c2
+colour: .id "pop_text_control_resist"								.rgba #000000
+colour: .id "pop_text_outline_control_resist"						.rgba #9a988f
+colour: .id "pop_text_hp_heal_dot_onset"							.rgba #4fcb4f
+colour: .id "pop_text_outline_hp_heal_dot_onset"					.rgba #2a4416
+colour: .id "pop_text_hp_heal_dot"									.rgba #4fcb4f
+colour: .id "pop_text_outline_hp_heal_dot"							.rgba #2a4416
+colour: .id "pop_text_hp_heal_dot_crit"					            .rgba #54ff70
+colour: .id "pop_text_outline_hp_heal_dot_crit"			            .rgba #05644f
+
+
+colour: .id "quirk_positive"										.shared_id "notable"
+colour: .id "quirk_negative"										.shared_id "harmful"
+colour: .id "quirk_singleton_positive"								.shared_id "notable"
+colour: .id "quirk_singleton_negative"								.shared_id "harmful"
+colour: .id "disease"                                               .rgba 121 141 69 255
+colour: .id "quirk_new_pulse_to"									.shared_id "neutral"
+colour: .id "quirk_tooltip_description"								.shared_id "neutral"
+
+colour: .id "equipment_level"										.shared_id "neutral"
+colour: .id "equipment_tooltip_title"								.shared_id "notable"
+colour: .id "equipment_tooltip_body"								.shared_id "neutral"
+
+colour: .id "resistance_name"										.shared_id "neutral"
+colour: .id "resistance_value"										.shared_id "neutral"
+
+colour: .id "campaign_status_affliction"							.shared_id "neutral"
+
+colour: .id "raid_quest_info_complete"								.shared_id "notable"
+colour: .id "raid_quest_info_name"									.shared_id "notable"
+colour: .id "raid_quest_info_goals"									.shared_id "neutral"
+
+colour: .id "town_quest_difficulty_1"								.rgba	169 217 102 255
+colour: .id "town_quest_difficulty_3"								.rgba	233 170	98	255
+colour: .id "town_quest_difficulty_5"								.rgba	255 87	49	255
+colour: .id "town_quest_difficulty_6"								.shared_id "harmful"
+
+colour: .id "trinket_hero_class_requirement"						.shared_id "notable"
+
+colour:	.id "realm_inventory_trinket_sell_description"				.shared_id "notable"
+colour:	.id "realm_inventory_trinket_sell_instruction"				.shared_id "neutral"
+
+colour:	.id "provision_sell_back_info"								.rgba #5d5a50
+
+colour:	.id "provision_quest_info_dungeon_name"						.shared_id "notable"
+colour:	.id "provision_quest_info_specs"					        .shared_id "neutral"
+
+colour: .id "raid_loading_screen_title"								.shared_id "notable"
+colour: .id "raid_loading_screen_tip"								.shared_id "neutral"
+
+colour: .id "town_screen_building_name"								.shared_id "notable"
+colour: .id "town_screen_building_description"						.shared_id "neutral"
+
+colour: .id "town_screen_colour_grade1"								.rgba 255 255 255 255
+colour: .id "town_screen_colour_grade2"								.rgba 255 255 255 255
+colour: .id "town_screen_colour_grade3"								.rgba 255 255 255 255
+colour: .id "town_screen_colour_grade4"								.rgba 255 255 255 255
+
+colour: .id "hero_slot_name"										.shared_id "notable"
+
+colour: .id "quest_select_progress_xpbar_tooltip"					.shared_id "neutral"
+colour: .id "quest_select_progress_town_event_icon_tooltip"			.shared_id "neutral"
+
+colour: .id "town_graveyard_story"									.shared_id "neutral"
+colour: .id "town_graveyard_hero_name"								.shared_id "notable"
+colour: .id "town_graveyard_hero_death_week"						.rgba 80 79 75 255
+colour: .id "town_graveyard_death_count"							.rgba 134 9 2 255
+colour: .id "town_activity_log_week_count"                          .shared_id "neutral"
+
+
+colour: .id "town_statue_story"									    .shared_id "neutral"
+
+
+colour: .id "kickstarter"											.rgba 77 191 122 255
+colour: .id "trophy"												.rgba 222 182 105 255
+colour: .id "ancestral"												.rgba 224 39 0 255
+colour: .id "darkest_dungeon"										.rgba 224 39 0 255
+colour: .id "ancestral_shambler"									.rgba 224 39 0 255
+colour: .id "madman"												.rgba 224 39 0 255
+colour: .id "courtier"												.rgba 194 69 0 255
+colour: .id "collector"											    .rgba 241 107 4 255
+colour: .id "uncommon"												.rgba 96 149 75 255
+colour: .id "common"												.rgba 168 168 168 255
+colour: .id "very_common"											.rgba 168 168 168 255
+colour: .id "rare"													.rgba 59 97 167 255
+colour: .id "very_rare"												.rgba 194 69 0 255
+colour: .id "crow"												    .rgba 224 39 0 255
+
+colour: .id "roster_full"											.shared_id "notable"
+
+colour:	.id "front_end_start_screen"								.shared_id "notable"
+colour: .id "front_end_build_number"								.rgba 80 80 80 255
+colour: .id "front_end_save_slot"									.shared_id "notable"
+colour:	.id "front_end_save_slot_inactive"							.rgba 73 71 68 255
+colour: .id "front_end_save_area"									.shared_id "neutral"
+colour: .id "front_end_ticker"										.rgba 73 71 68 255
+colour: .id "front_end_preamble"									.shared_id "neutral"
+colour: .id "front_end_campaign"									.shared_id "notable"
+colour: .id "front_end_controls_element_text"                       .shared_id "neutral"
+
+colour: .id "loading_screen_continue"								.shared_id "neutral"
+colour: .id "loading_screen_continue_pulse_to"						.rgba 200 180 110 0
+
+colour: .id "tutorial_popup_title"									.shared_id "notable"
+colour: .id "tutorial_popup_description"							.shared_id "neutral"
+
+colour: .id "mailing_list_title"									.shared_id "notable"
+colour: .id "mailing_list_description"	    						.shared_id "neutral"
+colour: .id "mailing_list_answer"                                   .shared_id "neutral"
+
+colour: .id "journal_popup_title"									.shared_id "notable"
+colour: .id "journal_popup_text"									.rgba 21 14 5 255
+colour: .id "journal_popup_count"									.rgba 21 14 5 255
+
+colour: .id "menu_base_element_text_base"							.shared_id "neutral"
+colour: .id "menu_base_element_text_highlight"						.shared_id "notable"
+colour: .id "menu_controls_category"								.shared_id "notable"
+colour: .id "menu_controls_element"									.shared_id "neutral"
+colour: .id "menu_options_element_name"								.shared_id "neutral"
+colour: .id "menu_options_element_name_disabled"					.darkness	0.4				.saturation 0.0
+colour: .id "menu_options_element_name_tooltip_cant_modify"			.shared_id "harmful"
+colour: .id "menu_options_element_name_tooltip"						.shared_id "neutral"
+colour: .id "menu_options_element_control"							.shared_id "neutral"
+colour: .id "menu_options_element_control_disabled"					.darkness	0.4				.saturation 0.0
+colour: .id "menu_options_element_control_button"					.rgba  	#fff				.saturation 1.0
+colour: .id "menu_options_element_control_button_disabled"			.darkness	0.4				.saturation 0.0
+colour: .id "menu_options_require_restart"							.shared_id "harmful"
+
+colour: .id "equipment_level_0"										.rgba 215 213 205 255
+colour: .id "equipment_level_1"										.rgba 215 213 205 255
+colour: .id "equipment_level_2"										.rgba 105 190 75 255
+colour: .id "equipment_level_3"										.rgba 62 114 212 255
+colour: .id "equipment_level_4"										.shared_id "harmful"
+
+colour:	.id "loot_take_all_tooltip"									.shared_id "neutral"
+colour: .id "loot_take_all_text"                                    .shared_id "notable"
+colour:	.id "loot_close_tooltip"									.shared_id "neutral"
+colour:	.id "loot_close_text"									    .shared_id "notable"
+
+colour:	.id "event_hunger_eat_tooltip"		                        .shared_id "neutral"
+colour:	.id "event_hunger_eat_text" 		                        .shared_id "notable"
+colour:	.id "event_hunger_starve_tooltip"		                    .shared_id "neutral"
+colour:	.id "event_hunger_starve_text" 		                        .shared_id "notable"
+
+colour:	.id "round_display_number"									.shared_id "notable"
+
+colour:	.id "glossary_quote"						                .shared_id "notable"
+colour:	.id "glossary_term"						                    .shared_id "notable"
+colour:	.id "glossary_term_definition"								.shared_id "neutral"
+
+colour: .id "quest_info_camp_bonus_skill_tooltip"         			.shared_id "notable"
+colour: .id "quest_info_camp_bonus_skill_stats_tooltip"         	.shared_id "neutral"
+
+colour:	.id "sanitarium_treatment_header"                           .shared_id "notable"
+colour:	.id "sanitarium_treatment_entry"                            .shared_id "neutral"
+colour:	.id "sanitarium_treatment_positive_entry"                   .shared_id "notable"
+colour:	.id "sanitarium_treatment_positive_entry_locked"            .darkness	0.4				.saturation 0.2
+colour:	.id "sanitarium_treatment_positive_entry_selected"          .shared_id "notable"
+colour:	.id "sanitarium_treatment_max_locked"                       .darkness	0.4				.saturation 0.2
+colour:	.id "sanitarium_treatment_negative_entry"                   .shared_id "harmful"
+colour:	.id "sanitarium_treatment_negative_entry_locked"            .shared_id "harmful"
+colour:	.id "sanitarium_treatment_negative_entry_selected"          .shared_id "harmful"
+colour:	.id "sanitarium_treatment_disease_entry"                    .rgba 121 141 69 255
+colour:	.id "sanitarium_treatment_disease_entry_locked"             .shared_id "harmful"
+colour:	.id "sanitarium_treatment_disease_entry_selected"           .rgba 173 201 98 255
+
+colour:   .id "monster_panel_monster_name"                          .shared_id "harmful"
+colour:   .id "monster_panel_monster_type"                          .shared_id "neutral"
+colour:   .id "monster_panel_monster_stats"                         .shared_id "neutral"
+colour:   .id "monster_panel_hero_attack_stats"                     .shared_id "notable"
+colour:   .id "monster_panel_resistances_title"                     .rgba #5d5a50
+colour:   .id "monster_panel_resistances_entry"                     .shared_id "neutral"
+colour:   .id "monster_panel_skills_title"                          .rgba #5d5a50
+colour:   .id "monster_panel_skills_entry"                          .shared_id "neutral"
+colour:   .id "monster_panel_hp"                                    .shared_id "harmful"
+
+colour:   .id "quest_complete_tooltip"                              .shared_id "neutral"
+colour:   .id "quest_complete_text"                                 .shared_id "notable"
+
+colour:   .id "realm_inventory_add_trinket_dialog_heading"          .shared_id "neutral"
+colour:   .id "realm_inventory_add_trinket_dialog_edit_box"         .shared_id "neutral"
+
+colour:   .id "stagecoach_add_hero_dialog_heading"                  .shared_id "neutral"
+colour:   .id "stagecoach_add_hero_dialog_edit_box"                 .shared_id "neutral"
+colour:   .id "stagecoach_empty_info_text"                 			.shared_id "neutral"
+colour:   .id "stagecoach_prisoner_rescued"                 		.shared_id "notable"
+
+
+colour:   .id "hero_slot_dimmed"                                    .shared_id "town_roster_portrait_unselectable"
+
+colour:   .id "credits_category"                                    .shared_id "notable"
+colour:	  .id "credits_entry"					                    .shared_id "neutral"
+colour:   .id "credits_level_0"                                     .shared_id "notable"
+colour:   .id "credits_level_1"                                     .shared_id "notable"
+colour:   .id "credits_level_2"                                     .shared_id "neutral"
+
+colour:	  .id "subtitle_context_raid"                               .shared_id "notable"
+colour:	  .id "subtitle_context_front_end"                          .shared_id "notable"
+colour:	  .id "subtitle_context_loading_screen"                     .shared_id "notable"
+colour:	  .id "subtitle_context_town"                               .shared_id "notable"
+colour:	  .id "subtitle_context_movie"                              .shared_id "notable"
+colour:	  .id "subtitle_context_raid_results"                       .shared_id "notable"
+
+colour:	  .id "game_over_estate_name"                               .shared_id "notable"
+colour:	  .id "game_over_estate_number_of_weeks"                    .shared_id "neutral"
+colour:	  .id "game_over_estate_number_of_dead_heroes"              .shared_id "neutral"
+colour:	  .id "game_over_estate_reason"                             .shared_id "harmful"
+
+colour:	  .id "town_event_story_title_bad"                          .shared_id "notable"
+colour:	  .id "town_event_story_title_good"                         .shared_id "notable"
+colour:	  .id "town_event_story_title_neutral"                      .shared_id "notable"
+colour:	  .id "town_event_story_description"                        .rgba 21 14 5 255
+colour:	  .id "town_event_info"                                     .shared_id "notable"
+
+colour:   .id "town_heirloom_exchange_title"                        .shared_id "notable"
+colour:   .id "town_heirloom_exchange_from_amount"                  .shared_id "neutral"
+colour:   .id "town_heirloom_exchange_to_amount"                    .shared_id "notable"
+
+colour:   .id "demo_message"                                        .shared_id "notable"
+
+colour:   .id "help_panel_controls"                                 .shared_id "notable"
+colour:   .id "controls_panel_text"                                 .shared_id "notable"
+
+colour:   .id "controls_panel_title"                                .shared_id "notable"
+colour:   .id "controls_panel_context_title"                        .shared_id "notable"
+colour:   .id "controls_panel_button_description"                   .shared_id "neutral"
+colour:   .id "controls_panel_context_title_text"                   .shared_id "notable"
+
+
+colour:   .id "map_input_preview_pan"                               .shared_id "neutral"
+colour:   .id "map_input_preview_zoom_in"                           .shared_id "neutral"
+colour:   .id "map_input_preview_zoom_out"                          .shared_id "neutral"
+colour:   .id "map_input_preview_reset"                             .shared_id "neutral"
+
+colour:   .id "input_command_input_preview_text_default"            .shared_id "neutral"
+colour:   .id "input_command_input_preview_saturation_fade_base"    .rgba	100	100	100	255 .saturation 0.0
+
+colour:   .id "primary1"                                            .rgba #175190
+colour:   .id "primary2"                                            .rgba #c82929
+colour:   .id "secondary1"                                          .rgba #9f43a1
+colour:   .id "secondary2"                                          .rgba #3bb265
+colour:   .id "start1"                                              .shared_id "neutral"
+colour:   .id "start2"                                              .shared_id "neutral"
+colour:   .id "shoulder_l"                                          .shared_id "neutral"
+colour:   .id "shoulder_r"                                          .shared_id "neutral"
+colour:   .id "stick_l"                                             .shared_id "neutral"
+colour:   .id "stick_r"                                             .shared_id "neutral"
+colour:   .id "dpad_l"                                              .shared_id "neutral"
+colour:   .id "dpad_r"                                              .shared_id "neutral"
+colour:   .id "dpad_u"                                              .shared_id "neutral"
+colour:   .id "dpad_d"                                              .shared_id "neutral"
+colour:   .id "tpad_l"                                              .shared_id "neutral"
+colour:   .id "tpad_r"                                              .shared_id "neutral"
+colour:   .id "tpad"                                                .shared_id "neutral"
+
+colour: .id "game_mode_select_dialog_question"                      .shared_id "notable"
+colour: .id "game_mode_select_dialog_answers"                       .shared_id "neutral"
+colour: .id "game_mode_select_dialog_tooltip"                       .shared_id "neutral"
+
+    
+colour: .id "save_slot_ugc_banner_text"                             .shared_id "neutral"
+colour:   .id "user_generated_content_title_text"                   .shared_id "notable"
+colour:   .id "user_generated_content_sub_title_text"               .shared_id "neutral"
+colour:   .id "user_generated_content_entry_text"                   .shared_id "notable"
+colour:   .id "user_generated_content_entry_tooltip"                .shared_id "neutral"
+colour:   .id "user_generated_content_entry_tooltip_build"          .darkness	0.4	 .saturation 0.0
+
+colour:   .id "town_district_entry_title_not_built"                 .shared_id "neutral"
+colour:   .id "town_district_entry_details_not_built"               .darkness	0.4				.saturation 0.0
+colour:   .id "town_district_entry_title_built"                     .shared_id "notable"
+colour:   .id "town_district_entry_title_unavailable"               .darkness	0.4				.saturation 0.0
+colour:   .id "town_district_entry_details_built"                   .shared_id "neutral"
+colour:   .id "town_district_entry_details_unavailable"             .darkness   0.4				.saturation 0.0
+colour:   .id "town_district_blueprint_tally"                       .shared_id "notable"
+colour:   .id "town_district_cost_numbers"                          .shared_id "notable"
+colour:   .id "town_district_cost_numbers_insufficient"             .shared_id "harmful"
+colour:   .id "town_district_checkbox_disabled"                     .darkness	0.4				.saturation 0.0
+colour:   .id "town_district_tooltip"                               .shared_id "neutral"
+
+colour:   .id "save_slot_dlc_banner_text"                           .rgba #93844e
+colour:   .id "save_slot_dlc_disabled_banner_text"                  .shared_id "neutral" 
+colour:   .id "downloadable_content_title_text"                     .shared_id "notable"
+colour:   .id "downloadable_content_sub_title_text"                 .shared_id "neutral"
+colour:   .id "downloadable_content_entry_text"                     .darkness	0.4				.saturation 0.0
+colour:   .id "downloadable_content_entry_tooltip"                  .shared_id "neutral"
+colour:   .id "downloadable_content_entry_tooltip_build"            .darkness	0.5	 .saturation 0.0
+colour:   .id "downloadable_content_permanently_enabled_text"       .shared_id "notable"
+colour:   .id "downloadable_content_permanently_enabled_checkbox"   .darkness	0.4				.saturation 0.0
+colour:   .id "downloadable_content_permanently_enabled_icon"       .shared_id "white"
+
+colour: .id "set_description_inactive"                              .rgba #555555
+colour: .id "set_description_active"                                .rgba #00ff00
+colour: .id "set_title"                                             .rgba #84182d
+
+colour: .id "town_event_tooltip"                                    .shared_id "neutral"
+colour: .id "singleton_quirk_tooltip_description"                   .shared_id "notable"
+colour: .id "skip_curio_text"                                       .shared_id "notable"
+
+colour: .id "wave_countdown_overlay_bar_bg_top"                     .rgba #111111
+colour: .id "wave_countdown_overlay_bar_bg_bottom"                  .rgba #333333
+colour: .id "wave_countdown_overlay_bar_top_left"                   .rgba #00d7a2
+colour: .id "wave_countdown_overlay_bar_top_right"                  .rgba #00d7a2
+colour: .id "wave_countdown_overlay_bar_bottom_left"                .rgba #002438
+colour: .id "wave_countdown_overlay_bar_bottom_right"               .rgba #002438
+colour: .id "wave_countdown_count"                                  .rgba #00d7a2
+colour: .id "wave_kill_count"                                  .rgba #00d7a2
+
+colour: .id "wave_progress_tooltip_reward_tier_small"               .shared_id "neutral" 
+colour: .id "wave_progress_tooltip_reward_tier_medium"              .rgba #436b6b
+colour: .id "wave_progress_tooltip_reward_tier_large"               .rgba #5fc9af
+colour: .id "wave_progress_tooltip_reward_tier_wonderous"           .rgba #f7e56f
+
+colour: .id "wave_skill_reset_announcement"                         .rgba #a3ffee
+colour: .id "pop_text_guard_break"				.rgba #f0cf5a
+colour: .id "pop_text_outline_guard_break"			.rgba #8e5b11
+
+
+

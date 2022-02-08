@@ -1,0 +1,20 @@
+{14cc5ac8-1e4c-40d8-9f87-5b34aea59933} event:/char/ally/IRM_ColdSnap
+{9f2ca21c-d037-48a8-9dd7-554295b96817} event:/char/ally/IRM_ColdSnap_Miss
+{dccc899b-3dfb-43c6-b1c3-8c263e5823d6} event:/char/ally/IRM_Command
+{8f82c1f4-1669-4cdb-9f29-1e29fdbf01dd} event:/char/ally/IRM_DayOff
+{648fe1dc-d840-4289-9e65-a7fdfa61936e} event:/char/ally/IRM_EndlessGrowth
+{ac451904-9010-411f-9ceb-846b55bdaade} event:/char/ally/IRM_FeastoftheWinterStar
+{9a5bfe33-8a6c-4757-be2f-a400a3e0d8bd} event:/char/ally/IRM_Harvest
+{efd026a6-cc58-40cc-8621-bc92ea44ffc6} event:/char/ally/IRM_Harvest_Miss
+{5c5492ec-b40f-4bd3-b1ab-60ae5edfc5ba} event:/char/ally/IRM_ImmortalBeloved
+{a49f146b-0084-4c81-9ac3-5716f894d63c} event:/char/ally/IRM_Reaping
+{e3975f3b-6728-4af9-984a-9adf88e218e7} event:/char/ally/IRM_Reaping_miss
+{a1a3d505-00e2-42a7-8faa-94ccdb63dd52} event:/char/ally/IRM_RefractedLight
+{e788f6ff-1af9-4877-879d-632744ae2703} event:/char/ally/IRM_TemporalClarity
+{7e6d2f86-720d-414b-91a8-b202777531bf} event:/char/ally/IRM_WintersBreath
+
+{31cd2b0e-ffae-4a31-ac7b-92e3db250f5f} event:/vo/bad/afflicted_miller_fractured
+{4922d251-90bb-4ee9-8b4f-d4db1f4fc193} event:/vo/bad/afflicted_miller_refracted
+{7498d7dc-5831-49bd-917b-cefa80c4f69d} event:/vo/good/virtue_miller_luminous
+{bd84e2bf-8dcc-4851-8754-a25c97b20305} event:/vo/town/recruit_miller
+{67f1a3ff-b98d-495d-a3c9-ff5ec07a4967} event:/vo/town_event/miller_north_blaze

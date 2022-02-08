@@ -1,0 +1,30 @@
+colour: .id "comet"                                     .rgba #a3ffee
+colour: .id "kill_counter_display_number"               .rgba #C8B46E
+colour: .id "shard_escrow_number"                       .shared_id "comet"
+colour: .id "mildred"                                   .rgba #a3ffee
+colour: .id "shard_display_number"                      .rgba #a3ffee
+colour: .id "raid_results_kill_counter"                 .rgba #ff0000
+colour: .id "raid_results_kill_counter_tampered"        .rgba #ff6000
+colour: .id "raid_results_shard_number"                 .rgba #a3ffee
+colour: .id "raid_results_shard_inventory_title"        .rgba #a3ffee
+colour: .id "raid_results_quest_result_endless"         .rgba #a3ffee
+colour: .id "town_quest_select_endless_wave_highscore"  .rgba #a3ffee
+colour: .id "town_quest_modifier_header"                .shared_id "neutral"
+colour: .id "town_quest_modifier_name"                  .rgba #a3ffee
+
+colour: .id "pop_text_damage_reflect"			        .rgba #000000
+colour: .id "pop_text_outline_damage_reflect"	        .rgba 200 180	110 255
+colour: .id "pop_text_refresh_skills"				.rgba #79f8ff
+colour: .id "pop_text_outline_refresh_skills"			.rgba #127298
+
+colour: .id "corpse_crystal_spawn_announcement"         .rgba #a3ffee
+colour: .id "wave_log_kill_count"                       .rgba #a3ffee
+colour: .id "endless_highscore_title"                   .rgba #49d5cd
+colour: .id "endless_highscore_killcount"               .shared_id "comet"
+colour: .id "endless_highscore_killcount_text"          .shared_id "comet"
+colour: .id "endless_highscore_killcount_tampered_text" .rgba #ff6000
+colour: .id "endless_highscore_killcount_text_outline"  .rgba #000000
+colour: .id "town_event_tooltip"                        .shared_id "neutral"
+colour: .id "thing"                                     .rgba #4a929c
+
+colour: .id "memory"                                    .shared_id "notable"

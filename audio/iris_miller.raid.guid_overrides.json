@@ -1,0 +1,25 @@
+{
+    "event_guid_overrides":
+    [
+		{"event_id": "event:/char/ally/iris_miller_miller_masters_command",   	    	    "guid_override":"{dccc899b-3dfb-43c6-b1c3-8c263e5823d6}"},
+        {"event_id": "event:/char/ally/iris_miller_miller_harvest",   	    	            "guid_override":"{9a5bfe33-8a6c-4757-be2f-a400a3e0d8bd}"},
+        {"event_id": "event:/char/ally/iris_miller_miller_harvest_miss",   	    	        "guid_override":"{efd026a6-cc58-40cc-8621-bc92ea44ffc6}"},
+        {"event_id": "event:/char/ally/iris_miller_miller_winters_breath",   	    	    "guid_override":"{7e6d2f86-720d-414b-91a8-b202777531bf}"},
+        {"event_id": "event:/char/ally/iris_miller_miller_cold_snap",   	    	        "guid_override":"{14cc5ac8-1e4c-40d8-9f87-5b34aea59933}"},
+        {"event_id": "event:/char/ally/iris_miller_miller_cold_snap_miss",   	    	    "guid_override":"{9f2ca21c-d037-48a8-9dd7-554295b96817}"},
+        {"event_id": "event:/char/ally/iris_miller_miller_reaping",   	    	            "guid_override":"{a49f146b-0084-4c81-9ac3-5716f894d63c}"},
+        {"event_id": "event:/char/ally/iris_miller_miller_reaping_miss",   	    	        "guid_override":"{e3975f3b-6728-4af9-984a-9adf88e218e7}"},
+        {"event_id": "event:/char/ally/iris_miller_miller_day_off",   	    	            "guid_override":"{8f82c1f4-1669-4cdb-9f29-1e29fdbf01dd}"},
+        {"event_id": "event:/char/ally/iris_miller_miller_immortal_beloved",   	    	    "guid_override":"{5c5492ec-b40f-4bd3-b1ab-60ae5edfc5ba}"},
+        {"event_id": "event:/char/ally/iris_miller_miller_riposte",   	    	            "guid_override":"{9a5bfe33-8a6c-4757-be2f-a400a3e0d8bd}"},
+        {"event_id": "event:/char/ally/iris_miller_miller_riposte_miss",   	    	        "guid_override":"{efd026a6-cc58-40cc-8621-bc92ea44ffc6}"},
+
+        {"event_id": "event:/camp/skill/miller_endless_harvest",                            "guid_override":"{648fe1dc-d840-4289-9e65-a7fdfa61936e}"},
+        {"event_id": "event:/camp/skill/miller_refracted_light",                            "guid_override":"{a1a3d505-00e2-42a7-8faa-94ccdb63dd52}"},
+        {"event_id": "event:/camp/skill/miller_winter_star",                                "guid_override":"{ac451904-9010-411f-9ceb-846b55bdaade}"},
+        {"event_id": "event:/camp/skill/miller_clarity",                                    "guid_override":"{e788f6ff-1af9-4877-879d-632744ae2703}"},
+        
+        {"event_id": "event:/char/enemy/mr_pepper_vo_aggro",   	    	        "guid_override":"{70ff7acc-0c27-40be-a28b-528022dd86ad}"},
+        {"event_id": "event:/char/enemy/mr_pepper_vo_death",   	    	        "guid_override":"{70ff7acc-0c27-40be-a28b-528022dd86ad}"}
+    ]
+}

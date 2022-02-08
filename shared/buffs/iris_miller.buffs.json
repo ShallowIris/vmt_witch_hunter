@@ -1,0 +1,240 @@
+{
+   "buffs":
+   [      
+      {
+         "id" : "IRM_MC_ACC_notmiller_B1", "stat_type" : "combat_stat_add", "stat_sub_type" : "attack_rating", "amount" : 0.07,
+         "remove_if_not_active" : false, "is_clear_debuff_valid": false,
+         "rule_type" : "in_mode", "is_false_rule" : true, "rule_data" : { "float" : 0, "string" : "miller_fake_mode" }
+      },
+      {
+         "id" : "IRM_MC_ACC_notmiller_B2", "stat_type" : "combat_stat_add", "stat_sub_type" : "attack_rating", "amount" : 0.09,
+         "remove_if_not_active" : false, "is_clear_debuff_valid": false,
+         "rule_type" : "in_mode", "is_false_rule" : true, "rule_data" : { "float" : 0, "string" : "miller_fake_mode" }
+      },
+      {
+         "id" : "IRM_MC_ACC_notmiller_B3", "stat_type" : "combat_stat_add", "stat_sub_type" : "attack_rating", "amount" : 0.11,
+         "remove_if_not_active" : false, "is_clear_debuff_valid": false,
+         "rule_type" : "in_mode", "is_false_rule" : true, "rule_data" : { "float" : 0, "string" : "miller_fake_mode" }
+      },
+      {
+         "id" : "IRM_MC_ACC_notmiller_B4", "stat_type" : "combat_stat_add", "stat_sub_type" : "attack_rating", "amount" : 0.13,
+         "remove_if_not_active" : false, "is_clear_debuff_valid": false,
+         "rule_type" : "in_mode", "is_false_rule" : true, "rule_data" : { "float" : 0, "string" : "miller_fake_mode" }
+      },
+      {
+         "id" : "IRM_MC_ACC_notmiller_B5", "stat_type" : "combat_stat_add", "stat_sub_type" : "attack_rating", "amount" : 0.15,
+         "remove_if_not_active" : false, "is_clear_debuff_valid": false,
+         "rule_type" : "in_mode", "is_false_rule" : true, "rule_data" : { "float" : 0, "string" : "miller_fake_mode" }
+      },
+      {
+         "id" : "IRM_MC_CRIT_notmiller_B1", "stat_type" : "combat_stat_add", "stat_sub_type" : "crit_chance", "amount" : 0.04,
+         "remove_if_not_active" : false, "is_clear_debuff_valid": false,
+         "rule_type" : "in_mode", "is_false_rule" : true, "rule_data" : { "float" : 0, "string" : "miller_fake_mode" }
+      },
+      {
+         "id" : "IRM_MC_CRIT_notmiller_B2", "stat_type" : "combat_stat_add", "stat_sub_type" : "crit_chance", "amount" : 0.05,
+         "remove_if_not_active" : false, "is_clear_debuff_valid": false,
+         "rule_type" : "in_mode", "is_false_rule" : true, "rule_data" : { "float" : 0, "string" : "miller_fake_mode" }
+      },
+      {
+         "id" : "IRM_MC_CRIT_notmiller_B3", "stat_type" : "combat_stat_add", "stat_sub_type" : "crit_chance", "amount" : 0.06,
+         "remove_if_not_active" : false, "is_clear_debuff_valid": false,
+         "rule_type" : "in_mode", "is_false_rule" : true, "rule_data" : { "float" : 0, "string" : "miller_fake_mode" }
+      },
+      {
+         "id" : "IRM_MC_CRIT_notmiller_B4", "stat_type" : "combat_stat_add", "stat_sub_type" : "crit_chance", "amount" : 0.07,
+         "remove_if_not_active" : false, "is_clear_debuff_valid": false,
+         "rule_type" : "in_mode", "is_false_rule" : true, "rule_data" : { "float" : 0, "string" : "miller_fake_mode" }
+      },
+      {
+         "id" : "IRM_MC_CRIT_notmiller_B5", "stat_type" : "combat_stat_add", "stat_sub_type" : "crit_chance", "amount" : 0.08,
+         "remove_if_not_active" : false, "is_clear_debuff_valid": false,
+         "rule_type" : "in_mode", "is_false_rule" : true, "rule_data" : { "float" : 0, "string" : "miller_fake_mode" }
+      },
+      {
+         "id" : "IRM_Harvest_DEBUFFRES_vsCorpse_D", "stat_type" : "resistance", "stat_sub_type" : "debuff",
+         "amount" : -50, "remove_if_not_active" : false, "has_description": false,
+         "rule_type" : "monsterType", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "corpse"}
+	   },
+      {
+         "id" : "IRM_Harvest_DEBUFFRES_B", "stat_type" : "resistance", "stat_sub_type" : "debuff",
+         "amount" : 10, "remove_if_not_active" : false, "has_description": false,
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0,  "string" : "" }
+      },
+      {
+         "id" : "IRM_Harvest_DEBUFFRES_D", "stat_type" : "resistance", "stat_sub_type" : "debuff",
+         "amount" : -50, "remove_if_not_active" : false, "has_description": false,
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0,  "string" : "" }
+      },
+      {
+         "id" : "IRM_Harvest_HEALRECV_D", "stat_type" : "hp_heal_received_percent", "stat_sub_type" : "",
+         "amount" : -10, "remove_if_not_active" : false,
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0,  "string" : "" }
+	   },
+      {
+         "id" : "IRM_Harvest_STRESSHEALRECV_D", "stat_type" : "stress_heal_received_percent", "stat_sub_type" : "",
+         "amount" : -10, "remove_if_not_active" : false,
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0,  "string" : "" }
+	   },
+      {
+         "id" : "IRM_WB_DMGREFL_B", "stat_type" : "damage_reflect_percent", "stat_sub_type" : "",
+         "amount" : 1, "remove_if_not_active" : false,
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0,  "string" : "" }
+	   },
+      {
+         "id" : "IRM_WB_BLEEDRES_B1", "stat_type" : "resistance", "stat_sub_type" : "bleed",
+         "amount" : 0.2, "remove_if_not_active" : false,
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0,  "string" : "" }
+      },
+      {
+         "id" : "IRM_WB_BLEEDRES_B2", "stat_type" : "resistance", "stat_sub_type" : "bleed",
+         "amount" : 0.25, "remove_if_not_active" : false,
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0,  "string" : "" }
+      },
+      {
+         "id" : "IRM_WB_BLEEDRES_B3", "stat_type" : "resistance", "stat_sub_type" : "bleed",
+         "amount" : 0.3, "remove_if_not_active" : false,
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0,  "string" : "" }
+      },
+      {
+         "id" : "IRM_WB_BLEEDRES_B4", "stat_type" : "resistance", "stat_sub_type" : "bleed",
+         "amount" : 0.35, "remove_if_not_active" : false,
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0,  "string" : "" }
+      },
+      {
+         "id" : "IRM_WB_BLEEDRES_B5", "stat_type" : "resistance", "stat_sub_type" : "bleed",
+         "amount" : 0.4, "remove_if_not_active" : false,
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0,  "string" : "" }
+      },
+      {
+         "id" : "IRM_WB_CRITRECV_B1", "stat_type" : "crit_received_chance", "stat_sub_type" : "",
+         "amount" : -0.11, "remove_if_not_active" : false,
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0,  "string" : "" }
+      },
+      {
+         "id" : "IRM_WB_CRITRECV_B2", "stat_type" : "crit_received_chance", "stat_sub_type" : "",
+         "amount" : -0.12, "remove_if_not_active" : false,
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0,  "string" : "" }
+      },
+      {
+         "id" : "IRM_WB_CRITRECV_B3", "stat_type" : "crit_received_chance", "stat_sub_type" : "",
+         "amount" : -0.13, "remove_if_not_active" : false,
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0,  "string" : "" }
+      },
+      {
+         "id" : "IRM_WB_CRITRECV_B4", "stat_type" : "crit_received_chance", "stat_sub_type" : "",
+         "amount" : -0.14, "remove_if_not_active" : false,
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0,  "string" : "" }
+      },
+      {
+         "id" : "IRM_WB_CRITRECV_B5", "stat_type" : "crit_received_chance", "stat_sub_type" : "",
+         "amount" : -0.15, "remove_if_not_active" : false,
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0,  "string" : "" }
+      },
+      {
+         "id" : "IRM_Reaping_vsBelow30p_ACC_B", "stat_type" : "combat_stat_add", "stat_sub_type" : "attack_rating", 
+         "amount" : 10, "remove_if_not_active" : false,
+         "rule_type" : "target_hpbelow", "is_false_rule" : false, "rule_data" : { "float" : 0.3, "string" : "" }
+      },
+      {
+         "id" : "IRM_Reaping_vsBelow30p_DMGH_B", "stat_type" : "combat_stat_multiply", "stat_sub_type" : "damage_high", 
+         "amount" : 0.2, "remove_if_not_active" : false,
+         "rule_type" : "target_hpbelow", "is_false_rule" : false, "rule_data" : { "float" : 0.3, "string" : "" }
+      },
+      {
+         "id" : "IRM_Reaping_vsBelow30p_DMGL_B", "stat_type" : "combat_stat_multiply", "stat_sub_type" : "damage_low", 
+         "amount" : 0.2, "remove_if_not_active" : false,
+         "rule_type" : "target_hpbelow", "is_false_rule" : false, "rule_data" : { "float" : 0.3, "string" : "" }
+      },
+      {
+         "id": "IRM_DO_disable_daze", "stat_type": "disable_combat_skill_attribute", "stat_sub_type": "daze", 
+         "amount": 1.0, "remove_if_not_active" : false, "is_clear_debuff_valid" : false, "remove_on_battle_complete" : true,
+         "rule_type": "always", "is_false_rule": false, "rule_data": { "float": 0, "string": "" }
+      },
+      {
+			"id": "IRM_IB_AP_B", "stat_type": "ignore_protection", "stat_sub_type": "",
+			"amount": 1, "remove_if_not_active": false,
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0,  "string" : "" }
+		},
+      {
+         "id" : "IRM_IB_Riposte_ACC_B1", "stat_type" : "combat_stat_add", "stat_sub_type" : "attack_rating", 
+         "amount" : 0, "remove_if_not_active" : false,
+         "rule_type" : "riposte", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
+      },
+      {
+         "id" : "IRM_IB_Riposte_ACC_B2", "stat_type" : "combat_stat_add", "stat_sub_type" : "attack_rating", 
+         "amount" : 0.05, "remove_if_not_active" : false,
+         "rule_type" : "riposte", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
+      },
+      {
+         "id" : "IRM_IB_Riposte_ACC_B3", "stat_type" : "combat_stat_add", "stat_sub_type" : "attack_rating", 
+         "amount" : 0.1, "remove_if_not_active" : false,
+         "rule_type" : "riposte", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
+      },
+      {
+         "id" : "IRM_IB_Riposte_ACC_B4", "stat_type" : "combat_stat_add", "stat_sub_type" : "attack_rating", 
+         "amount" : 0.15, "remove_if_not_active" : false,
+         "rule_type" : "riposte", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
+      },
+      {
+         "id" : "IRM_IB_Riposte_ACC_B5", "stat_type" : "combat_stat_add", "stat_sub_type" : "attack_rating", 
+         "amount" : 0.2, "remove_if_not_active" : false,
+         "rule_type" : "riposte", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
+      },
+      {
+         "id" : "IRM_IB_Riposte_CRIT_B1", "stat_type" : "combat_stat_add", "stat_sub_type" : "crit_chance", 
+         "amount" : 0, "remove_if_not_active" : false,
+         "rule_type" : "riposte", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
+      },
+      {
+         "id" : "IRM_IB_Riposte_CRIT_B2", "stat_type" : "combat_stat_add", "stat_sub_type" : "crit_chance", 
+         "amount" : 0.01, "remove_if_not_active" : false,
+         "rule_type" : "riposte", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
+      },
+      {
+         "id" : "IRM_IB_Riposte_CRIT_B3", "stat_type" : "combat_stat_add", "stat_sub_type" : "crit_chance", 
+         "amount" : 0.02, "remove_if_not_active" : false,
+         "rule_type" : "riposte", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
+      },
+      {
+         "id" : "IRM_IB_Riposte_CRIT_B4", "stat_type" : "combat_stat_add", "stat_sub_type" : "crit_chance", 
+         "amount" : 0.03, "remove_if_not_active" : false,
+         "rule_type" : "riposte", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
+      },
+      {
+         "id" : "IRM_IB_Riposte_CRIT_B5", "stat_type" : "combat_stat_add", "stat_sub_type" : "crit_chance", 
+         "amount" : 0.04, "remove_if_not_active" : false,
+         "rule_type" : "riposte", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
+      },
+      {
+         "id" : "IRM_camp_ignore_stealth", "stat_type" : "ignore_stealth", "stat_sub_type" : "",
+         "amount" : 1, "duration_type" : "combat_end", "duration" : 4, "remove_if_not_active" : false,
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
+      },
+      {
+         "id" : "IRM_camp_SPD4", "stat_type" : "combat_stat_add", "stat_sub_type" : "speed_rating",
+         "amount" : 4, "duration_type" : "combat_end", "duration" : 4, "remove_if_not_active" : false,
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
+      },
+      {
+         "id" : "IRM_camp_ACC7", "stat_type" : "combat_stat_add", "stat_sub_type" : "attack_rating", 
+         "amount" : 0.07, "duration_type" : "combat_end", "duration" : 4, "remove_if_not_active" : false,
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
+      },
+      {
+         "id" : "IRM_camp_CRIT5", "stat_type" : "combat_stat_add", "stat_sub_type" : "crit_chance", 
+         "amount" : 0.05, "duration_type" : "combat_end", "duration" : 4, "remove_if_not_active" : false,
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
+      },
+      {
+         "id" : "IRM_camp_vsBelow50p_ACC7", "stat_type" : "combat_stat_add", "stat_sub_type" : "attack_rating", 
+         "amount" : 0.07, "duration_type" : "combat_end", "duration" : 4, "remove_if_not_active" : false,
+         "rule_type" : "target_hpbelow", "is_false_rule" : false, "rule_data" : { "float" : 0.5, "string" : "" }
+      },
+      {
+         "id" : "IRM_camp_vsBelow50p_CRIT5", "stat_type" : "combat_stat_add", "stat_sub_type" : "crit_chance", 
+         "amount" : 0.05, "duration_type" : "combat_end", "duration" : 4, "remove_if_not_active" : false,
+         "rule_type" : "target_hpbelow", "is_false_rule" : false, "rule_data" : { "float" : 0.5, "string" : "" }
+      }
+   ]
+}
