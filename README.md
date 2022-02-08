@@ -1,3 +1,3 @@
-# miller_conversion
+# vmt_witch_hunter
 
-a proejct to convert the Miller into a playable hero.
+Witch hunter gaming
