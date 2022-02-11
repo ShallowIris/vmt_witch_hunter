@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<language id="koreana">
+
+	<!--Hamlet Strings and Skills-->
+
+	<entry id="hero_class_name_vmt_wh"><![CDATA[위치 헌터]]></entry>
+
+	<entry id="action_verbose_body_blacksmith_vmt_wh"><![CDATA[대장간 설명]]></entry>
+	<entry id="action_verbose_body_guild_vmt_wh"><![CDATA[길드 설명]]></entry>
+	<entry id="action_verbose_body_camping_trainer_vmt_wh"><![CDATA[생존주의자 설명]]></entry>
+
+	<entry id="combat_skill_name_vmt_wh_WH_witchhunt"><![CDATA[마녀 사냥]]></entry>
+	<entry id="combat_skill_name_vmt_wh_WH_takeaim"><![CDATA[지그마의 힘으로!]]></entry>
+   	<entry id="combat_skill_name_vmt_wh_WH_heretic"><![CDATA[이단자 심판]]></entry>
+   	<entry id="combat_skill_name_vmt_wh_WH_flense"><![CDATA[가죽 벗기기]]></entry>
+   	<entry id="combat_skill_name_vmt_wh_WH_weight"><![CDATA[사격의 무게]]></entry>
+   	<entry id="combat_skill_name_vmt_wh_WH_guard"><![CDATA[영원한 보호]]></entry>
+   	<entry id="combat_skill_name_vmt_wh_WH_judge"><![CDATA[너희 모두를 심판하리라!]]></entry>
+   	<entry id="combat_skill_name_vmt_wh_move"><![CDATA[이동]]></entry>
+		
+   	<entry id="upgrade_tree_name_vmt_wh.WH_witchhunt"><![CDATA[마녀 사냥]]></entry>
+	<entry id="upgrade_tree_name_vmt_wh.WH_takeaim"><![CDATA[지그마의 힘으로!]]></entry>
+   	<entry id="upgrade_tree_name_vmt_wh.WH_heretic"><![CDATA[이단자 심판]]></entry>
+   	<entry id="upgrade_tree_name_vmt_wh.WH_flense"><![CDATA[가죽 벗기기]]></entry>
+   	<entry id="upgrade_tree_name_vmt_wh.WH_weight"><![CDATA[사격의 무게]]></entry>
+   	<entry id="upgrade_tree_name_vmt_wh.WH_guard"><![CDATA[영원한 보호]]></entry>
+   	<entry id="upgrade_tree_name_vmt_wh.WH_judge"><![CDATA[너희 모두를 심판하리라!]]></entry>
+
+   	
+
+    <!-- Narrations -->
+
+    <!-- Party Combos -->
+    
+	<!-- Trinkets -->
+
+	<!-- Tooltips -->
+
+	<entry id="buff_stat_tooltip_combat_stat_multiply_crit_chance"><![CDATA[치명타 배율 %+d%%]]></entry>
+
+	<entry id="str_skill_mode_info_wh_chaser"><![CDATA[]]></entry>
+	<entry id="str_skill_mode_info_wh_inquisitor"><![CDATA[]]></entry>
+	<entry id="str_skill_mode_info_wh_allmodes"><![CDATA[]]></entry>
+   	<entry id="str_skill_mode_info_wh_witchhunt1"><![CDATA[
+{colour_start|notable}추적태세{colour_end}일 때:]]></entry>
+	<entry id="str_skill_mode_info_wh_witchhunt2"><![CDATA[
+{colour_start|notable}심문태세{colour_end}일 때:]]></entry>
+   	<entry id="str_skill_mode_info_wh_heretic1"><![CDATA[
+{colour_start|notable}추적태세{colour_end}일 때:]]></entry>
+	<entry id="str_skill_mode_info_wh_heretic2"><![CDATA[
+{colour_start|notable}심문태세{colour_end}일 때:]]></entry>
+   	<entry id="str_skill_mode_info_wh_flense1"><![CDATA[
+{colour_start|notable}추적태세{colour_end}일 때:]]></entry>
+	<entry id="str_skill_mode_info_wh_flense2"><![CDATA[
+{colour_start|notable}심문태세{colour_end}일 때:]]></entry>
+   	<entry id="str_skill_mode_info_wh_judge1"><![CDATA[
+{colour_start|notable}추적태세{colour_end}일 때:]]></entry>
+	<entry id="str_skill_mode_info_wh_judge2"><![CDATA[
+{colour_start|notable}심문태세{colour_end}일 때:]]></entry>
+
+	<entry id="buff_stat_tooltip_upgrade_discount_WH_to_chaser_TT"><![CDATA[{colour_start|notable}추적태세{colour_end}로 전환]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WH_to_inqui_TT"><![CDATA[{colour_start|notable}심문태세{colour_end}로 전환]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WH_all_stance_instant"><![CDATA[태세별 부가 효과 없음{colour_start|wh_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WH_TT_Cleaner"><![CDATA[{colour_start|wh_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_wh_hunt_onkill_TT_1"><![CDATA[처치 시:
+파티 스트레스 -3]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_wh_hunt_onkill_TT_2"><![CDATA[처치 시:
+파티 스트레스 -3]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_wh_hunt_onkill_TT_3"><![CDATA[처치 시:
+파티 스트레스 -4]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_wh_hunt_onkill_TT_4"><![CDATA[처치 시:
+파티 스트레스 -4]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_wh_hunt_onkill_TT_5"><![CDATA[처치 시:
+파티 스트레스 -5]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_wh_hunt_chaser_TT_1"><![CDATA[{colour_start|notable}추적태세{colour_end}일 때:
+피해 -50%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_wh_hunt_chaser_TT_2"><![CDATA[대상 {colour_start|mark}표식{colour_end} 찍기]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_wh_hunt_inqui_TT_1_lv1"><![CDATA[{colour_start|notable}심문태세{colour_end}일 때:
+피해 +60%%, 치명타 +3%% ("{colour_start|mark}표식 찍힘{colour_end}" 상대)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_wh_hunt_inqui_TT_1_lv2"><![CDATA[{colour_start|notable}심문태세{colour_end}일 때:
+피해 +65%%, 치명타 +4%% ("{colour_start|mark}표식 찍힘{colour_end}" 상대){colour_start|wh_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_wh_hunt_inqui_TT_1_lv3"><![CDATA[{colour_start|notable}심문태세{colour_end}일 때:
+피해 +70%%, 치명타 +5%% ("{colour_start|mark}표식 찍힘{colour_end}" 상대){colour_start|wh_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_wh_hunt_inqui_TT_1_lv4"><![CDATA[{colour_start|notable}심문태세{colour_end}일 때:
+피해 +75%%, 치명타 +6%% ("{colour_start|mark}표식 찍힘{colour_end}" 상대){colour_start|wh_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_wh_hunt_inqui_TT_1_lv5"><![CDATA[{colour_start|notable}심문태세{colour_end}일 때:
+피해 +80%%, 치명타 +7%% ("{colour_start|mark}표식 찍힘{colour_end}" 상대){colour_start|wh_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+
+	<entry id="buff_stat_tooltip_upgrade_discount_HW_takeaim_TT"><![CDATA[{colour_start|notable}쿨다운: 2라운드{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HW_takeaim_buff_TT"><![CDATA[{colour_start|notable}지그마의 힘으로!{colour_end}: 쿨다운]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WH_takeaim_to_inqui"><![CDATA[{colour_start|notable}추적태세{colour_end}일 때:
+{colour_start|notable}심문태세{colour_end}로 전환{colour_start|wh_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+
+	<entry id="buff_stat_tooltip_upgrade_discount_wh_heretic_chaser_TT_1_lv1"><![CDATA[{colour_start|notable}추적태세{colour_end}일 때:
+{colour_start|debuff}대상 약화{colour_end}:
+회피 -15]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_wh_heretic_chaser_TT_1_lv2"><![CDATA[{colour_start|notable}추적태세{colour_end}일 때:
+{colour_start|debuff}대상 약화{colour_end}:
+회피 -17]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_wh_heretic_chaser_TT_1_lv3"><![CDATA[{colour_start|notable}추적태세{colour_end}일 때:
+{colour_start|debuff}대상 약화{colour_end}:
+회피 -20]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_wh_heretic_chaser_TT_1_lv4"><![CDATA[{colour_start|notable}추적태세{colour_end}일 때:
+{colour_start|debuff}대상 약화{colour_end}:
+회피 -22]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_wh_heretic_chaser_TT_1_lv5"><![CDATA[{colour_start|notable}추적태세{colour_end}일 때:
+{colour_start|debuff}대상 약화{colour_end}:
+회피 -25]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_wh_heretic_chaser_TT_2_lv1"><![CDATA[{colour_start|buff}자신 강화{colour_end}:
+속도 +3]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_wh_heretic_chaser_TT_2_lv2"><![CDATA[{colour_start|buff}자신 강화{colour_end}:
+속도 +3]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_wh_heretic_chaser_TT_2_lv3"><![CDATA[{colour_start|buff}자신 강화{colour_end}:
+속도 +4]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_wh_heretic_chaser_TT_2_lv4"><![CDATA[{colour_start|buff}자신 강화{colour_end}:
+속도 +4]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_wh_heretic_chaser_TT_2_lv5"><![CDATA[{colour_start|buff}자신 강화{colour_end}:
+속도 +5]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_wh_heretic_inqui_TT_1_lv1"><![CDATA[{colour_start|notable}심문태세{colour_end}일 때:
+피해 +60%%
+{colour_start|notable}추적태세{colour_end}로 전환]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_wh_heretic_inqui_TT_1_lv2"><![CDATA[{colour_start|notable}심문태세{colour_end}일 때:
+피해 +65%%
+{colour_start|notable}추적태세{colour_end}로 전환]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_wh_heretic_inqui_TT_1_lv3"><![CDATA[{colour_start|notable}심문태세{colour_end}일 때:
+피해 +70%%
+{colour_start|notable}추적태세{colour_end}로 전환]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_wh_heretic_inqui_TT_1_lv4"><![CDATA[{colour_start|notable}심문태세{colour_end}일 때:
+피해 +75%%
+{colour_start|notable}추적태세{colour_end}로 전환]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_wh_heretic_inqui_TT_1_lv5"><![CDATA[{colour_start|notable}심문태세{colour_end}일 때:
+피해 +80%%
+{colour_start|notable}추적태세{colour_end}로 전환]]></entry>
+
+	<entry id="buff_stat_tooltip_upgrade_discount_wh_flense_chaser_TT_1_lv1"><![CDATA[{colour_start|notable}추적태세{colour_end}일 때:
+{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(100%% 기반){colour_end}
+턴당 3 피해, 3턴간 지속]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_wh_flense_chaser_TT_1_lv2"><![CDATA[{colour_start|notable}추적태세{colour_end}일 때:
+{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(110%% 기반){colour_end}
+턴당 3 피해, 3턴간 지속]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_wh_flense_chaser_TT_1_lv3"><![CDATA[{colour_start|notable}추적태세{colour_end}일 때:
+{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(120%% 기반){colour_end}
+턴당 4 피해, 3턴간 지속]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_wh_flense_chaser_TT_1_lv4"><![CDATA[{colour_start|notable}추적태세{colour_end}일 때:
+{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(130%% 기반){colour_end}
+턴당 4 피해, 3턴간 지속]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_wh_flense_chaser_TT_1_lv5"><![CDATA[{colour_start|notable}추적태세{colour_end}일 때:
+{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(140%% 기반){colour_end}
+턴당 5 피해, 3턴간 지속]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_wh_flense_inqui_TT_1_lv1"><![CDATA[{colour_start|notable}심문태세{colour_end}일 때:
+{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(100%% 기반){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_wh_flense_inqui_TT_1_lv2"><![CDATA[{colour_start|notable}심문태세{colour_end}일 때:
+{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(110%% 기반){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_wh_flense_inqui_TT_1_lv3"><![CDATA[{colour_start|notable}심문태세{colour_end}일 때:
+{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(120%% 기반){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_wh_flense_inqui_TT_1_lv4"><![CDATA[{colour_start|notable}심문태세{colour_end}일 때:
+{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(130%% 기반){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_wh_flense_inqui_TT_1_lv5"><![CDATA[{colour_start|notable}심문태세{colour_end}일 때:
+{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(140%% 기반){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_wh_flense_inqui_TT_2_lv1"><![CDATA[턴당 4 피해, 3턴간 지속
+{colour_start|notable}추적태세{colour_end}로 변환]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_wh_flense_inqui_TT_2_lv2"><![CDATA[턴당 4 피해, 3턴간 지속
+{colour_start|notable}추적태세{colour_end}로 변환]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_wh_flense_inqui_TT_2_lv3"><![CDATA[턴당 5 피해, 3턴간 지속
+{colour_start|notable}추적태세{colour_end}로 변환]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_wh_flense_inqui_TT_2_lv4"><![CDATA[턴당 5 피해, 3턴간 지속
+{colour_start|notable}추적태세{colour_end}로 변환]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_wh_flense_inqui_TT_2_lv5"><![CDATA[턴당 6 피해, 3턴간 지속
+{colour_start|notable}추적태세{colour_end}로 변환]]></entry>
+
+	<entry id="buff_stat_tooltip_upgrade_discount_WH_judge_to_inqui"><![CDATA[{colour_start|notable}추적태세{colour_end}일 때:
+{colour_start|notable}심문태세{colour_end}로 전환]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_wh_judge_inqui_TT"><![CDATA[{colour_start|notable}심문태세{colour_end}일 때:
+대상의 수가 적을수록 피해 30%% 증가
+{colour_start|skill_unselectable}(최대 90%%){colour_end}]]></entry>
+
+	<!-- Barks -->
+
+	<!-- Virtues and Afflictions -->
+	
+	</language>
+</root>

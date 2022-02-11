@@ -1,0 +1,120 @@
+resistances: .stun 30% .poison 30% .bleed 30% .disease 30% .move 40% .debuff 30% .death_blow 67% .trap 40%
+crit: .effects on_crit_WH_party_crit
+
+weapon: .name "WH_weapon_0" .atk 0% .dmg 4 8 .crit 4% .spd 5 
+weapon: .name "WH_weapon_1" .atk 0% .dmg 5 9 .crit 5% .spd 5 .upgradeRequirementCode 0
+weapon: .name "WH_weapon_2" .atk 0% .dmg 6 11 .crit 6% .spd 6 .upgradeRequirementCode 1
+weapon: .name "WH_weapon_3" .atk 0% .dmg 7 12 .crit 7% .spd 6 .upgradeRequirementCode 2
+weapon: .name "WH_weapon_4" .atk 0% .dmg 8 14 .crit 8% .spd 7 .upgradeRequirementCode 3
+
+armour: .name "WH_armour_0" .def 10% .prot 0 .hp 21 .spd 0
+armour: .name "WH_armour_1" .def 15% .prot 0 .hp 26 .spd 0 .upgradeRequirementCode 0
+armour: .name "WH_armour_2" .def 20% .prot 0 .hp 31 .spd 0 .upgradeRequirementCode 1
+armour: .name "WH_armour_3" .def 25% .prot 0 .hp 36 .spd 0 .upgradeRequirementCode 2
+armour: .name "WH_armour_4" .def 30% .prot 0 .hp 41 .spd 0 .upgradeRequirementCode 3
+
+combat_move_skill: .id "move" .level 0 .type "move" .move 2 2 .launch 4321 .valid_modes wh_chaser wh_inquisitor .wh_inquisitor_effects wh_to_chaser .effect wh_to_chaser wh_to_inquisitor wh_to_chaser
+riposte_skill: .id "WH_riposte" .level 0 .type "melee" .atk 100% .dmg 0% .crit 0% .launch 1234 .target 1234
+
+// Witch Hunt
+combat_skill: .id "WH_witchhunt" .level 0 .type "ranged" .atk 85%  .dmg 0% .crit 5% .launch 43 .target 234 .effect "WH Hunt Anti Corpse" "WH Hunt SwapTarget StressHeal Debuff" "WH Hunt Stressheal 1" "WH Hunt Buff Clear" wh_hunt_onkill_TT_1 .generation_guaranteed true
+combat_skill: .id "WH_witchhunt" .level 0 .type "ranged" .atk 85%  .dmg 0% .crit 5% .launch 43 .target 234 .valid_modes wh_chaser .wh_chaser_effects "WH Hunt Mark Target" "WH Hunt instant DMG Debuff" wh_hunt_chaser_TT_1 wh_hunt_chaser_TT_2 WH_to_inqui_TT
+combat_skill: .id "WH_witchhunt" .level 0 .type "ranged" .atk 85%  .dmg 0% .crit 5% .launch 43 .target 234 .valid_modes wh_inquisitor .wh_inquisitor_effects "WH Hunt vsMarked Buff 1" wh_hunt_inqui_TT_1_lv1
+combat_skill: .id "WH_witchhunt" .level 1 .type "ranged" .atk 90%  .dmg 0% .crit 6% .launch 43 .target 234 .effect "WH Hunt Anti Corpse" "WH Hunt SwapTarget StressHeal Debuff" "WH Hunt Stressheal 2" "WH Hunt Buff Clear" wh_hunt_onkill_TT_2
+combat_skill: .id "WH_witchhunt" .level 1 .type "ranged" .atk 90%  .dmg 0% .crit 6% .launch 43 .target 234 .valid_modes wh_chaser .wh_chaser_effects "WH Hunt Mark Target" "WH Hunt instant DMG Debuff" wh_hunt_chaser_TT_1 wh_hunt_chaser_TT_2 WH_to_inqui_TT
+combat_skill: .id "WH_witchhunt" .level 1 .type "ranged" .atk 90%  .dmg 0% .crit 6% .launch 43 .target 234 .valid_modes wh_inquisitor .wh_inquisitor_effects "WH Hunt vsMarked Buff 2" wh_hunt_inqui_TT_1_lv2
+combat_skill: .id "WH_witchhunt" .level 2 .type "ranged" .atk 95%  .dmg 0% .crit 7% .launch 43 .target 234 .effect "WH Hunt Anti Corpse" "WH Hunt SwapTarget StressHeal Debuff" "WH Hunt Stressheal 3" "WH Hunt Buff Clear" wh_hunt_onkill_TT_3
+combat_skill: .id "WH_witchhunt" .level 2 .type "ranged" .atk 95%  .dmg 0% .crit 7% .launch 43 .target 234 .valid_modes wh_chaser .wh_chaser_effects "WH Hunt Mark Target" "WH Hunt instant DMG Debuff" wh_hunt_chaser_TT_1 wh_hunt_chaser_TT_2 WH_to_inqui_TT
+combat_skill: .id "WH_witchhunt" .level 2 .type "ranged" .atk 95%  .dmg 0% .crit 7% .launch 43 .target 234 .valid_modes wh_inquisitor .wh_inquisitor_effects "WH Hunt vsMarked Buff 3" wh_hunt_inqui_TT_1_lv3
+combat_skill: .id "WH_witchhunt" .level 3 .type "ranged" .atk 100%  .dmg 0% .crit 8% .launch 43 .target 234 .effect "WH Hunt Anti Corpse" "WH Hunt SwapTarget StressHeal Debuff" "WH Hunt Stressheal 4" "WH Hunt Buff Clear" wh_hunt_onkill_TT_4
+combat_skill: .id "WH_witchhunt" .level 3 .type "ranged" .atk 100%  .dmg 0% .crit 8% .launch 43 .target 234 .valid_modes wh_chaser .wh_chaser_effects "WH Hunt Mark Target" "WH Hunt instant DMG Debuff" wh_hunt_chaser_TT_1 wh_hunt_chaser_TT_2 WH_to_inqui_TT
+combat_skill: .id "WH_witchhunt" .level 3 .type "ranged" .atk 100%  .dmg 0% .crit 8% .launch 43 .target 234 .valid_modes wh_inquisitor .wh_inquisitor_effects "WH Hunt vsMarked Buff 4" wh_hunt_inqui_TT_1_lv4
+combat_skill: .id "WH_witchhunt" .level 4 .type "ranged" .atk 105%  .dmg 0% .crit 9% .launch 43 .target 234 .effect "WH Hunt Anti Corpse" "WH Hunt SwapTarget StressHeal Debuff" "WH Hunt Stressheal 5" "WH Hunt Buff Clear" wh_hunt_onkill_TT_5
+combat_skill: .id "WH_witchhunt" .level 4 .type "ranged" .atk 105%  .dmg 0% .crit 9% .launch 43 .target 234 .valid_modes wh_chaser .wh_chaser_effects "WH Hunt Mark Target" "WH Hunt instant DMG Debuff" wh_hunt_chaser_TT_1 wh_hunt_chaser_TT_2 WH_to_inqui_TT
+combat_skill: .id "WH_witchhunt" .level 4 .type "ranged" .atk 105%  .dmg 0% .crit 9% .launch 43 .target 234 .valid_modes wh_inquisitor .wh_inquisitor_effects "WH Hunt vsMarked Buff 5" wh_hunt_inqui_TT_1_lv5
+
+// By Sigmar's Strength!
+combat_skill: .id "WH_takeaim" .level 0 .launch 4321 .target .valid_modes wh_chaser wh_inquisitor .wh_chaser_effects wh_to_inquisitor WH_takeaim_to_inqui
+combat_skill: .id "WH_takeaim" .level 0 .launch 4321 .target .effect "WH Takeaim Crit Buff" "WH Takeaim SPDDEF Buff 1" "WH Fake Blight" "WH Blight Disable" "WH Takeaim Cooldown TT"
+combat_skill: .id "WH_takeaim" .level 1 .launch 4321 .target .valid_modes wh_chaser wh_inquisitor .wh_chaser_effects wh_to_inquisitor WH_takeaim_to_inqui
+combat_skill: .id "WH_takeaim" .level 1 .launch 4321 .target .effect "WH Takeaim Crit Buff" "WH Takeaim SPDDEF Buff 2" "WH Fake Blight" "WH Blight Disable" "WH Takeaim Cooldown TT"
+combat_skill: .id "WH_takeaim" .level 2 .launch 4321 .target .valid_modes wh_chaser wh_inquisitor .wh_chaser_effects wh_to_inquisitor WH_takeaim_to_inqui
+combat_skill: .id "WH_takeaim" .level 2 .launch 4321 .target .effect "WH Takeaim Crit Buff" "WH Takeaim SPDDEF Buff 3" "WH Fake Blight" "WH Blight Disable" "WH Takeaim Cooldown TT"
+combat_skill: .id "WH_takeaim" .level 3 .launch 4321 .target .valid_modes wh_chaser wh_inquisitor .wh_chaser_effects wh_to_inquisitor WH_takeaim_to_inqui
+combat_skill: .id "WH_takeaim" .level 3 .launch 4321 .target .effect "WH Takeaim Crit Buff" "WH Takeaim SPDDEF Buff 4" "WH Fake Blight" "WH Blight Disable" "WH Takeaim Cooldown TT"
+combat_skill: .id "WH_takeaim" .level 4 .launch 4321 .target .valid_modes wh_chaser wh_inquisitor .wh_chaser_effects wh_to_inquisitor WH_takeaim_to_inqui
+combat_skill: .id "WH_takeaim" .level 4 .launch 4321 .target .effect "WH Takeaim Crit Buff" "WH Takeaim SPDDEF Buff 5" "WH Fake Blight" "WH Blight Disable" "WH Takeaim Cooldown TT"
+
+// Heretic Sighted
+combat_skill: .id "WH_heretic" .level 0 .type "melee" .move 0 1 .atk 95%  .dmg -25% .crit 3% .launch 432 .target 123 .ignore_stealth true .effect "Destealth"
+combat_skill: .id "WH_heretic" .level 0 .type "melee" .move 0 1 .atk 95%  .dmg -25% .crit 3% .launch 432 .target 123 .ignore_stealth true .valid_modes wh_chaser .wh_chaser_effects wh_to_inquisitor "WH Heretic Self SPD Buff 1" "WH Heretic Target DEF Debuff 1"  wh_heretic_chaser_TT_1_lv1 wh_heretic_chaser_TT_2_lv1 WH_to_inqui_TT
+combat_skill: .id "WH_heretic" .level 0 .type "melee" .move 0 1 .atk 95%  .dmg -25% .crit 3% .launch 432 .target 123 .ignore_stealth true .valid_modes wh_inquisitor .wh_inquisitor_effects wh_to_chaser "WH Heretic instant DMG Buff 1" wh_heretic_inqui_TT_1_lv1
+combat_skill: .id "WH_heretic" .level 1 .type "melee" .move 0 1 .atk 100%  .dmg -25% .crit 4% .launch 432 .target 123 .ignore_stealth true .effect "Destealth"
+combat_skill: .id "WH_heretic" .level 1 .type "melee" .move 0 1 .atk 100%  .dmg -25% .crit 4% .launch 432 .target 123 .ignore_stealth true .valid_modes wh_chaser .wh_chaser_effects wh_to_inquisitor "WH Heretic Self SPD Buff 2" "WH Heretic Target DEF Debuff 2" wh_heretic_chaser_TT_1_lv2 wh_heretic_chaser_TT_2_lv2 WH_to_inqui_TT
+combat_skill: .id "WH_heretic" .level 1 .type "melee" .move 0 1 .atk 100%  .dmg -25% .crit 4% .launch 432 .target 123 .ignore_stealth true .valid_modes wh_inquisitor .wh_inquisitor_effects wh_to_chaser "WH Heretic instant DMG Buff 2" wh_heretic_inqui_TT_1_lv2
+combat_skill: .id "WH_heretic" .level 2 .type "melee" .move 0 1 .atk 105%  .dmg -25% .crit 5% .launch 432 .target 123 .ignore_stealth true .effect "Destealth"
+combat_skill: .id "WH_heretic" .level 2 .type "melee" .move 0 1 .atk 105%  .dmg -25% .crit 5% .launch 432 .target 123 .ignore_stealth true .valid_modes wh_chaser .wh_chaser_effects wh_to_inquisitor "WH Heretic Self SPD Buff 3" "WH Heretic Target DEF Debuff 3" wh_heretic_chaser_TT_1_lv3 wh_heretic_chaser_TT_2_lv3 WH_to_inqui_TT
+combat_skill: .id "WH_heretic" .level 2 .type "melee" .move 0 1 .atk 105%  .dmg -25% .crit 5% .launch 432 .target 123 .ignore_stealth true .valid_modes wh_inquisitor .wh_inquisitor_effects wh_to_chaser "WH Heretic instant DMG Buff 3" wh_heretic_inqui_TT_1_lv3
+combat_skill: .id "WH_heretic" .level 3 .type "melee" .move 0 1 .atk 110%  .dmg -25% .crit 6% .launch 432 .target 123 .ignore_stealth true .effect "Destealth"
+combat_skill: .id "WH_heretic" .level 3 .type "melee" .move 0 1 .atk 110%  .dmg -25% .crit 6% .launch 432 .target 123 .ignore_stealth true .valid_modes wh_chaser .wh_chaser_effects wh_to_inquisitor "WH Heretic Self SPD Buff 4" "WH Heretic Target DEF Debuff 4" wh_heretic_chaser_TT_1_lv4 wh_heretic_chaser_TT_2_lv4 WH_to_inqui_TT
+combat_skill: .id "WH_heretic" .level 3 .type "melee" .move 0 1 .atk 110%  .dmg -25% .crit 6% .launch 432 .target 123 .ignore_stealth true .valid_modes wh_inquisitor .wh_inquisitor_effects wh_to_chaser "WH Heretic instant DMG Buff 4" wh_heretic_inqui_TT_1_lv4
+combat_skill: .id "WH_heretic" .level 4 .type "melee" .move 0 1 .atk 115%  .dmg -25% .crit 7% .launch 432 .target 123 .ignore_stealth true .effect "Destealth"
+combat_skill: .id "WH_heretic" .level 4 .type "melee" .move 0 1 .atk 115%  .dmg -25% .crit 7% .launch 432 .target 123 .ignore_stealth true .valid_modes wh_chaser .wh_chaser_effects wh_to_inquisitor "WH Heretic Self SPD Buff 5" "WH Heretic Target DEF Debuff 5" wh_heretic_chaser_TT_1_lv5 wh_heretic_chaser_TT_2_lv5 WH_to_inqui_TT
+combat_skill: .id "WH_heretic" .level 4 .type "melee" .move 0 1 .atk 115%  .dmg -25% .crit 7% .launch 432 .target 123 .ignore_stealth true .valid_modes wh_inquisitor .wh_inquisitor_effects wh_to_chaser "WH Heretic instant DMG Buff 5" wh_heretic_inqui_TT_1_lv5
+
+// Flense
+combat_skill: .id "WH_flense" .level 0 .type "melee" .atk 90%  .dmg -15% .crit 3% .launch 321 .target 123 .valid_modes wh_chaser .wh_chaser_effects wh_to_inquisitor "WH Flense Chase Bleed 1" "WH Flense Chase Bleed TT1"
+combat_skill: .id "WH_flense" .level 0 .type "melee" .atk 90%  .dmg -15% .crit 3% .launch 321 .target 123 .valid_modes wh_inquisitor .wh_inquisitor_effects wh_to_chaser "WH Flense Inqui Bleed 1" "WH Flense Inqui Bleed TT1"
+combat_skill: .id "WH_flense" .level 1 .type "melee" .atk 95%  .dmg -15% .crit 4% .launch 321 .target 123 .valid_modes wh_chaser .wh_chaser_effects wh_to_inquisitor "WH Flense Chase Bleed 2" "WH Flense Chase Bleed TT2"
+combat_skill: .id "WH_flense" .level 1 .type "melee" .atk 95%  .dmg -15% .crit 4% .launch 321 .target 123 .valid_modes wh_inquisitor .wh_inquisitor_effects wh_to_chaser "WH Flense Inqui Bleed 2" "WH Flense Inqui Bleed TT2"
+combat_skill: .id "WH_flense" .level 2 .type "melee" .atk 100%  .dmg -15% .crit 5% .launch 321 .target 123 .valid_modes wh_chaser .wh_chaser_effects wh_to_inquisitor "WH Flense Chase Bleed 3" "WH Flense Chase Bleed TT3"
+combat_skill: .id "WH_flense" .level 2 .type "melee" .atk 100%  .dmg -15% .crit 5% .launch 321 .target 123 .valid_modes wh_inquisitor .wh_inquisitor_effects wh_to_chaser "WH Flense Inqui Bleed 3" "WH Flense Inqui Bleed TT3"
+combat_skill: .id "WH_flense" .level 3 .type "melee" .atk 105%  .dmg -15% .crit 6% .launch 321 .target 123 .valid_modes wh_chaser .wh_chaser_effects wh_to_inquisitor "WH Flense Chase Bleed 4" "WH Flense Chase Bleed TT4"
+combat_skill: .id "WH_flense" .level 3 .type "melee" .atk 105%  .dmg -15% .crit 6% .launch 321 .target 123 .valid_modes wh_inquisitor .wh_inquisitor_effects wh_to_chaser "WH Flense Inqui Bleed 4" "WH Flense Inqui Bleed TT4"
+combat_skill: .id "WH_flense" .level 4 .type "melee" .atk 110%  .dmg -15% .crit 7% .launch 321 .target 123 .valid_modes wh_chaser .wh_chaser_effects wh_to_inquisitor "WH Flense Chase Bleed 5" "WH Flense Chase Bleed TT5"
+combat_skill: .id "WH_flense" .level 4 .type "melee" .atk 110%  .dmg -15% .crit 7% .launch 321 .target 123 .valid_modes wh_inquisitor .wh_inquisitor_effects wh_to_chaser "WH Flense Inqui Bleed 5" "WH Flense Inqui Bleed TT5"
+
+// Weight of Fire
+combat_skill: .id "WH_weight" .level 0 .type "ranged" .move 1 0 .atk 90%  .dmg -25% .crit -5% .launch 321 .target ~12 .valid_modes wh_chaser wh_inquisitor wh_allmodes .ignore_protection true .wh_allmodes_effects WH_all_stance_instant
+combat_skill: .id "WH_weight" .level 1 .type "ranged" .move 1 0 .atk 95%  .dmg -25% .crit -4% .launch 321 .target ~12 .valid_modes wh_chaser wh_inquisitor wh_allmodes .ignore_protection true .wh_allmodes_effects WH_all_stance_instant
+combat_skill: .id "WH_weight" .level 2 .type "ranged" .move 1 0 .atk 100%  .dmg -25% .crit -3% .launch 321 .target ~12 .valid_modes wh_chaser wh_inquisitor wh_allmodes .ignore_protection true .wh_allmodes_effects WH_all_stance_instant
+combat_skill: .id "WH_weight" .level 3 .type "ranged" .move 1 0 .atk 105%  .dmg -25% .crit -2% .launch 321 .target ~12 .valid_modes wh_chaser wh_inquisitor wh_allmodes .ignore_protection true .wh_allmodes_effects WH_all_stance_instant
+combat_skill: .id "WH_weight" .level 4 .type "ranged" .move 1 0 .atk 110%  .dmg -25% .crit -1% .launch 321 .target ~12 .valid_modes wh_chaser wh_inquisitor wh_allmodes .ignore_protection true .wh_allmodes_effects WH_all_stance_instant
+
+// Eternal Guard
+combat_skill: .id "WH_guard" .level 0 .launch 4321 .target .valid_modes wh_chaser wh_inquisitor wh_allmodes .effect "WH Guard Party Untag" "WH Guard Self Mark" "WH Guard Self DEF Buff 1" .wh_allmodes_effects WH_all_stance_instant
+combat_skill: .id "WH_guard" .level 1 .launch 4321 .target .valid_modes wh_chaser wh_inquisitor wh_allmodes .effect "WH Guard Party Untag" "WH Guard Self Mark" "WH Guard Self DEF Buff 2" .wh_allmodes_effects WH_all_stance_instant
+combat_skill: .id "WH_guard" .level 2 .launch 4321 .target .valid_modes wh_chaser wh_inquisitor wh_allmodes .effect "WH Guard Party Untag" "WH Guard Self Mark" "WH Guard Self DEF Buff 3" .wh_allmodes_effects WH_all_stance_instant
+combat_skill: .id "WH_guard" .level 3 .launch 4321 .target .valid_modes wh_chaser wh_inquisitor wh_allmodes .effect "WH Guard Party Untag" "WH Guard Self Mark" "WH Guard Self DEF Buff 4" .wh_allmodes_effects WH_all_stance_instant
+combat_skill: .id "WH_guard" .level 4 .launch 4321 .target .valid_modes wh_chaser wh_inquisitor wh_allmodes .effect "WH Guard Party Untag" "WH Guard Self Mark" "WH Guard Self DEF Buff 5" .wh_allmodes_effects WH_all_stance_instant
+
+// I Shall Judge You All
+combat_skill: .id "WH_judge" .type "ranged" .atk 85% .dmg -50% .crit 1% .level 0 .launch 43 .target ~1234 .effect "WH Judge CRIT Multiplier Debuff" clear_corpses
+combat_skill: .id "WH_judge" .type "ranged" .atk 85% .dmg -50% .crit 1% .level 0 .launch 43 .target ~1234 .valid_modes wh_chaser .wh_chaser_effects wh_to_inquisitor WH_judge_to_inqui
+combat_skill: .id "WH_judge" .type "ranged" .atk 85% .dmg -50% .crit 1% .level 0 .launch 43 .target ~1234 .valid_modes wh_inquisitor .wh_inquisitor_effects "WH Judge DMG Buff" "WH Judge DMG Per Alive DeBuff" wh_judge_inqui_TT
+combat_skill: .id "WH_judge" .type "ranged" .atk 90% .dmg -50% .crit 2% .level 1 .launch 43 .target ~1234 .effect "WH Judge CRIT Multiplier Debuff" clear_corpses
+combat_skill: .id "WH_judge" .type "ranged" .atk 90% .dmg -50% .crit 2% .level 1 .launch 43 .target ~1234 .valid_modes wh_chaser .wh_chaser_effects wh_to_inquisitor WH_judge_to_inqui
+combat_skill: .id "WH_judge" .type "ranged" .atk 90% .dmg -50% .crit 2% .level 1 .launch 43 .target ~1234 .valid_modes wh_inquisitor .wh_inquisitor_effects "WH Judge DMG Buff" "WH Judge DMG Per Alive DeBuff" wh_judge_inqui_TT
+combat_skill: .id "WH_judge" .type "ranged" .atk 95% .dmg -50% .crit 3% .level 2 .launch 43 .target ~1234 .effect "WH Judge CRIT Multiplier Debuff" clear_corpses 
+combat_skill: .id "WH_judge" .type "ranged" .atk 95% .dmg -50% .crit 3% .level 2 .launch 43 .target ~1234 .valid_modes wh_chaser .wh_chaser_effects wh_to_inquisitor WH_judge_to_inqui
+combat_skill: .id "WH_judge" .type "ranged" .atk 95% .dmg -50% .crit 3% .level 2 .launch 43 .target ~1234 .valid_modes wh_inquisitor .wh_inquisitor_effects "WH Judge DMG Buff" "WH Judge DMG Per Alive DeBuff" wh_judge_inqui_TT
+combat_skill: .id "WH_judge" .type "ranged" .atk 100% .dmg -50% .crit 4% .level 3 .launch 43 .target ~1234 .effect "WH Judge CRIT Multiplier Debuff" clear_corpses
+combat_skill: .id "WH_judge" .type "ranged" .atk 100% .dmg -50% .crit 4% .level 3 .launch 43 .target ~1234 .valid_modes wh_chaser .wh_chaser_effects wh_to_inquisitor WH_judge_to_inqui
+combat_skill: .id "WH_judge" .type "ranged" .atk 100% .dmg -50% .crit 4% .level 3 .launch 43 .target ~1234 .valid_modes wh_inquisitor .wh_inquisitor_effects "WH Judge DMG Buff" "WH Judge DMG Per Alive DeBuff" wh_judge_inqui_TT
+combat_skill: .id "WH_judge" .type "ranged" .atk 105% .dmg -50% .crit 5% .level 4 .launch 43 .target ~1234 .effect "WH Judge CRIT Multiplier Debuff" clear_corpses
+combat_skill: .id "WH_judge" .type "ranged" .atk 105% .dmg -50% .crit 5% .level 4 .launch 43 .target ~1234 .valid_modes wh_chaser .wh_chaser_effects wh_to_inquisitor WH_judge_to_inqui
+combat_skill: .id "WH_judge" .type "ranged" .atk 105% .dmg -50% .crit 5% .level 4 .launch 43 .target ~1234 .valid_modes wh_inquisitor .wh_inquisitor_effects "WH Judge DMG Buff" "WH Judge DMG Per Alive DeBuff" wh_judge_inqui_TT
+
+tag: .id "light"
+tag: .id "religious"
+tag: .id "outsiders_bonfire"
+deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
+controlled: .target_rank 1
+id_index: .index 1778
+
+mode: .id wh_allmodes
+mode: .id wh_chaser .is_raid_default true
+mode: .id wh_inquisitor .battle_complete_combat_skill_id "move"
+
+skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4
+generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4 .number_of_cards_in_deck 100 .card_chance 1.0

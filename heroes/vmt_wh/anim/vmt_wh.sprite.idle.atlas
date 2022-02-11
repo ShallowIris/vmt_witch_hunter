@@ -1,0 +1,279 @@
+
+vmt_wh.sprite.idle.png
+size: 1015,989
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 10
+  rotate: true
+  xy: 411, 2
+  size: 101, 191
+  orig: 101, 191
+  offset: 0, 0
+  index: -1
+Layer 11
+  rotate: false
+  xy: 876, 13
+  size: 67, 74
+  orig: 67, 74
+  offset: 0, 0
+  index: -1
+Layer 14
+  rotate: true
+  xy: 637, 654
+  size: 97, 176
+  orig: 97, 176
+  offset: 0, 0
+  index: -1
+Layer 15
+  rotate: false
+  xy: 2, 377
+  size: 197, 610
+  orig: 197, 610
+  offset: 0, 0
+  index: -1
+Layer 16
+  rotate: false
+  xy: 798, 522
+  size: 118, 127
+  orig: 118, 127
+  offset: 0, 0
+  index: -1
+Layer 17
+  rotate: true
+  xy: 916, 174
+  size: 95, 54
+  orig: 95, 54
+  offset: 0, 0
+  index: -1
+Layer 18
+  rotate: false
+  xy: 965, 875
+  size: 36, 112
+  orig: 36, 112
+  offset: 0, 0
+  index: -1
+Layer 19
+  rotate: true
+  xy: 918, 507
+  size: 142, 95
+  orig: 142, 95
+  offset: 0, 0
+  index: -1
+Layer 20
+  rotate: false
+  xy: 201, 397
+  size: 113, 590
+  orig: 113, 590
+  offset: 0, 0
+  index: -1
+Layer 21
+  rotate: false
+  xy: 69, 130
+  size: 135, 245
+  orig: 135, 245
+  offset: 0, 0
+  index: -1
+Layer 22
+  rotate: false
+  xy: 577, 124
+  size: 154, 87
+  orig: 154, 87
+  offset: 0, 0
+  index: -1
+Layer 23
+  rotate: false
+  xy: 411, 105
+  size: 164, 147
+  orig: 164, 147
+  offset: 0, 0
+  index: -1
+Layer 25
+  rotate: true
+  xy: 746, 486
+  size: 166, 50
+  orig: 166, 50
+  offset: 0, 0
+  index: -1
+Layer 26
+  rotate: false
+  xy: 316, 636
+  size: 319, 351
+  orig: 319, 351
+  offset: 0, 0
+  index: -1
+Layer 27
+  rotate: true
+  xy: 802, 2
+  size: 82, 72
+  orig: 82, 72
+  offset: 0, 0
+  index: -1
+Layer 28
+  rotate: false
+  xy: 733, 86
+  size: 107, 125
+  orig: 107, 125
+  offset: 0, 0
+  index: -1
+Layer 29
+  rotate: false
+  xy: 842, 89
+  size: 89, 68
+  orig: 89, 68
+  offset: 0, 0
+  index: -1
+Layer 30
+  rotate: true
+  xy: 842, 159
+  size: 110, 72
+  orig: 110, 72
+  offset: 0, 0
+  index: -1
+Layer 31
+  rotate: true
+  xy: 604, 2
+  size: 120, 116
+  orig: 120, 116
+  offset: 0, 0
+  index: -1
+Layer 32
+  rotate: false
+  xy: 722, 2
+  size: 78, 82
+  orig: 78, 82
+  offset: 0, 0
+  index: -1
+Layer 33
+  rotate: true
+  xy: 304, 5
+  size: 68, 103
+  orig: 68, 103
+  offset: 0, 0
+  index: -1
+Layer 34
+  rotate: false
+  xy: 577, 224
+  size: 47, 28
+  orig: 47, 28
+  offset: 0, 0
+  index: -1
+Layer 35
+  rotate: false
+  xy: 933, 332
+  size: 65, 67
+  orig: 65, 67
+  offset: 0, 0
+  index: -1
+Layer 36
+  rotate: true
+  xy: 798, 495
+  size: 25, 111
+  orig: 25, 111
+  offset: 0, 0
+  index: -1
+Layer 37
+  rotate: true
+  xy: 316, 392
+  size: 81, 515
+  orig: 81, 515
+  offset: 0, 0
+  index: -1
+Layer 38
+  rotate: true
+  xy: 174, 3
+  size: 70, 128
+  orig: 70, 128
+  offset: 0, 0
+  index: -1
+Layer 39
+  rotate: false
+  xy: 909, 401
+  size: 54, 51
+  orig: 54, 51
+  offset: 0, 0
+  index: -1
+Layer 40
+  rotate: true
+  xy: 833, 394
+  size: 99, 74
+  orig: 99, 74
+  offset: 0, 0
+  index: -1
+Layer 41
+  rotate: true
+  xy: 316, 475
+  size: 159, 428
+  orig: 159, 428
+  offset: 0, 0
+  index: -1
+Layer 42
+  rotate: false
+  xy: 815, 651
+  size: 144, 100
+  orig: 144, 100
+  offset: 0, 0
+  index: -1
+Layer 44
+  rotate: true
+  xy: 206, 254
+  size: 136, 429
+  orig: 136, 429
+  offset: 0, 0
+  index: -1
+Layer 6
+  rotate: false
+  xy: 637, 753
+  size: 326, 234
+  orig: 326, 234
+  offset: 0, 0
+  index: -1
+Layer 7
+  rotate: true
+  xy: 911, 454
+  size: 51, 94
+  orig: 51, 94
+  offset: 0, 0
+  index: -1
+Layer 9
+  rotate: true
+  xy: 637, 213
+  size: 177, 203
+  orig: 177, 203
+  offset: 0, 0
+  index: -1
+Layer 9_2
+  rotate: true
+  xy: 206, 75
+  size: 177, 203
+  orig: 177, 203
+  offset: 0, 0
+  index: -1
+h1
+  rotate: true
+  xy: 842, 271
+  size: 121, 89
+  orig: 121, 89
+  offset: 0, 0
+  index: -1
+h2
+  rotate: true
+  xy: 965, 784
+  size: 89, 38
+  orig: 89, 38
+  offset: 0, 0
+  index: -1
+h3
+  rotate: true
+  xy: 69, 2
+  size: 126, 103
+  orig: 126, 103
+  offset: 0, 0
+  index: -1
+sdw
+  rotate: false
+  xy: 2, 16
+  size: 65, 359
+  orig: 65, 359
+  offset: 0, 0
+  index: -1

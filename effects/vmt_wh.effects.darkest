@@ -1,0 +1,151 @@
+
+// CRIT
+effect: .name "on_crit_WH_party_crit" .target "performer_group" .duration 2 .buff_source_type bsrc_crit .combat_stat_buff 1 .crit_chance_add 0.03 .on_hit true .on_miss false .apply_once true
+
+// Skill effects
+//-----------------------------
+
+effect: .name "WH_all_stance_instant"   .target "performer" .skill_instant true .buff_ids WH_all_stance_instant .on_hit true .on_miss true
+effect: .name "WH_to_chaser_TT"   .target "performer" .skill_instant true .buff_ids WH_to_chaser_TT .on_hit true .on_miss true
+effect: .name "WH_to_inqui_TT"   .target "performer" .skill_instant true .buff_ids WH_to_inqui_TT .on_hit true .on_miss true
+effect: .name "WH_TT_Cleaner"   .target "performer" .duration 1 .buff_ids WH_TT_Cleaner .on_hit true .on_miss true
+
+// Mode Change
+effect: .name "wh_to_chaser" .target "performer" .set_mode wh_chaser .on_hit true .on_miss true .has_description false
+effect: .name "wh_to_inquisitor" .target "performer" .set_mode wh_inquisitor .on_hit true .on_miss true .has_description false
+
+// Witch Hunt
+
+effect: .name "WH Hunt Anti Corpse" .target "performer" .skill_instant true .buff_ids WH_Hunt_Stressheal_vsCorpse_D .on_hit true .on_miss false .buff_source_type bsrc_last_hero .has_description false
+effect: .name "WH Hunt SwapTarget StressHeal Debuff" .target "target" .swap_source_and_target true .chance 5000% .buff_ids WH_Hunt_Stressheal_D .on_hit true .on_miss false .queue false .buff_source_type bsrc_last_hero .has_description false
+effect: .name "WH Hunt StressHeal 1" .target "performer" .healstress 3 .on_hit true .on_miss false .queue true
+effect: .name "WH Hunt StressHeal 2" .target "performer" .healstress 3 .on_hit true .on_miss false .queue true
+effect: .name "WH Hunt StressHeal 3" .target "performer" .healstress 4 .on_hit true .on_miss false .queue true
+effect: .name "WH Hunt StressHeal 4" .target "performer" .healstress 4 .on_hit true .on_miss false .queue true
+effect: .name "WH Hunt StressHeal 5" .target "performer" .healstress 5 .on_hit true .on_miss false .queue true
+effect: .name "WH Hunt Buff Clear" .target "performer" .steal_buff_source_type bsrc_last_hero .on_hit true .on_miss false .queue true .has_description false
+effect: .name "WH Hunt Mark Target"	.target "target" .tag 1 .duration 3	.on_hit true .on_miss false .has_description false
+effect: .name "WH Hunt instant DMG Debuff" .target "performer" .skill_instant true .buff_ids DMGH-50 DMGL-50 .on_hit true .on_miss true .has_description false
+effect: .name "WH Hunt vsMarked Buff 1" .target "performer" .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 60% .damage_high_multiply 60% .crit_chance_add 3% .on_hit true .on_miss false .has_description false
+effect: .name "WH Hunt vsMarked Buff 2" .target "performer" .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 65% .damage_high_multiply 65% .crit_chance_add 4% .on_hit true .on_miss false .has_description false
+effect: .name "WH Hunt vsMarked Buff 3" .target "performer" .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 70% .damage_high_multiply 70% .crit_chance_add 5% .on_hit true .on_miss false .has_description false
+effect: .name "WH Hunt vsMarked Buff 4" .target "performer" .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 75% .damage_high_multiply 75% .crit_chance_add 6% .on_hit true .on_miss false .has_description false
+effect: .name "WH Hunt vsMarked Buff 5" .target "performer" .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 80% .damage_high_multiply 80% .crit_chance_add 7% .on_hit true .on_miss false .has_description false
+
+effect: .name "wh_hunt_onkill_TT_1"   .target "performer" .skill_instant true .buff_ids wh_hunt_onkill_TT_1 .on_hit true .on_miss true
+effect: .name "wh_hunt_onkill_TT_2"   .target "performer" .skill_instant true .buff_ids wh_hunt_onkill_TT_2 .on_hit true .on_miss true
+effect: .name "wh_hunt_onkill_TT_3"   .target "performer" .skill_instant true .buff_ids wh_hunt_onkill_TT_3 .on_hit true .on_miss true
+effect: .name "wh_hunt_onkill_TT_4"   .target "performer" .skill_instant true .buff_ids wh_hunt_onkill_TT_4 .on_hit true .on_miss true
+effect: .name "wh_hunt_onkill_TT_5"   .target "performer" .skill_instant true .buff_ids wh_hunt_onkill_TT_5 .on_hit true .on_miss true
+effect: .name "wh_hunt_chaser_TT_1"   .target "performer" .skill_instant true .buff_ids wh_hunt_chaser_TT_1 .on_hit true .on_miss true
+effect: .name "wh_hunt_chaser_TT_2"   .target "performer" .skill_instant true .buff_ids wh_hunt_chaser_TT_2 .on_hit true .on_miss true
+effect: .name "wh_hunt_inqui_TT_1_lv1"   .target "performer" .skill_instant true .buff_ids wh_hunt_inqui_TT_1_lv1 .on_hit true .on_miss true
+effect: .name "wh_hunt_inqui_TT_1_lv2"   .target "performer" .skill_instant true .buff_ids wh_hunt_inqui_TT_1_lv2 .on_hit true .on_miss true
+effect: .name "wh_hunt_inqui_TT_1_lv3"   .target "performer" .skill_instant true .buff_ids wh_hunt_inqui_TT_1_lv3 .on_hit true .on_miss true
+effect: .name "wh_hunt_inqui_TT_1_lv4"   .target "performer" .skill_instant true .buff_ids wh_hunt_inqui_TT_1_lv4 .on_hit true .on_miss true
+effect: .name "wh_hunt_inqui_TT_1_lv5"   .target "performer" .skill_instant true .buff_ids wh_hunt_inqui_TT_1_lv5 .on_hit true .on_miss true
+
+// By Sigmar's Strength!
+
+effect: .name "WH Takeaim Crit Buff" .target "performer" .duration 2 .combat_stat_buff 1 .crit_chance_add 1 .on_hit true .on_miss true
+effect: .name "WH Takeaim SPDDEF Buff 1" .target "performer" .duration 3 .combat_stat_buff 1 .speed_rating_add 3 .defense_rating_add 0.09 .on_hit true .on_miss true
+effect: .name "WH Takeaim SPDDEF Buff 2" .target "performer" .duration 3 .combat_stat_buff 1 .speed_rating_add 3 .defense_rating_add 0.1 .on_hit true .on_miss true
+effect: .name "WH Takeaim SPDDEF Buff 3" .target "performer" .duration 3 .combat_stat_buff 1 .speed_rating_add 3 .defense_rating_add 0.11 .on_hit true .on_miss true
+effect: .name "WH Takeaim SPDDEF Buff 4" .target "performer" .duration 3 .combat_stat_buff 1 .speed_rating_add 3 .defense_rating_add 0.12 .on_hit true .on_miss true
+effect: .name "WH Takeaim SPDDEF Buff 5" .target "performer" .duration 3 .combat_stat_buff 1 .speed_rating_add 3 .defense_rating_add 0.13 .on_hit true .on_miss true
+effect: .name "WH Fake Blight" .target "performer" .dotPoison 1 .duration 1 .chance 0% .on_hit false .on_miss false .can_apply_on_death true .has_description false
+effect: .name "WH Blight Disable" .target "performer" .buff_ids HW_takeaim_reload HW_takeaim_buff_TT .duration 3 .on_hit true .on_miss true .has_description false
+effect: .name "WH Takeaim Cooldown TT" .target "performer" .duration 1 .buff_ids HW_takeaim_TT .on_hit true .on_miss true
+
+effect: .name "WH_takeaim_to_inqui"   .target "performer" .skill_instant true .buff_ids WH_takeaim_to_inqui .on_hit true .on_miss true
+
+// Heretic Sighted
+
+effect: .name "WH Heretic Self SPD Buff 1" .target "performer" .duration 3 .combat_stat_buff 1 .speed_rating_add 3 .on_hit true .on_miss true .has_description false
+effect: .name "WH Heretic Self SPD Buff 2" .target "performer" .duration 3 .combat_stat_buff 1 .speed_rating_add 3 .on_hit true .on_miss true .has_description false
+effect: .name "WH Heretic Self SPD Buff 3" .target "performer" .duration 3 .combat_stat_buff 1 .speed_rating_add 4 .on_hit true .on_miss true .has_description false
+effect: .name "WH Heretic Self SPD Buff 4" .target "performer" .duration 3 .combat_stat_buff 1 .speed_rating_add 4 .on_hit true .on_miss true .has_description false
+effect: .name "WH Heretic Self SPD Buff 5" .target "performer" .duration 3 .combat_stat_buff 1 .speed_rating_add 5 .on_hit true .on_miss true .has_description false
+effect: .name "WH Heretic Target DEF Debuff 1" .target "target" .chance 100% .duration 3 .combat_stat_buff 1 .defense_rating_add -0.15 .on_hit true .on_miss false .has_description false
+effect: .name "WH Heretic Target DEF Debuff 2" .target "target" .chance 110% .duration 3 .combat_stat_buff 1 .defense_rating_add -0.17 .on_hit true .on_miss false .has_description false
+effect: .name "WH Heretic Target DEF Debuff 3" .target "target" .chance 120% .duration 3 .combat_stat_buff 1 .defense_rating_add -0.20 .on_hit true .on_miss false .has_description false
+effect: .name "WH Heretic Target DEF Debuff 4" .target "target" .chance 130% .duration 3 .combat_stat_buff 1 .defense_rating_add -0.22 .on_hit true .on_miss false .has_description false
+effect: .name "WH Heretic Target DEF Debuff 5" .target "target" .chance 140% .duration 3 .combat_stat_buff 1 .defense_rating_add -0.25 .on_hit true .on_miss false .has_description false
+effect: .name "WH Heretic instant DMG Buff 1" .target "performer" .skill_instant true .buff_ids WH_Heretic_DMGH_B_1 WH_Heretic_DMGL_B_1 .on_hit true .on_miss true .has_description false
+effect: .name "WH Heretic instant DMG Buff 2" .target "performer" .skill_instant true .buff_ids WH_Heretic_DMGH_B_2 WH_Heretic_DMGL_B_2 .on_hit true .on_miss true .has_description false
+effect: .name "WH Heretic instant DMG Buff 3" .target "performer" .skill_instant true .buff_ids WH_Heretic_DMGH_B_3 WH_Heretic_DMGL_B_3 .on_hit true .on_miss true .has_description false
+effect: .name "WH Heretic instant DMG Buff 4" .target "performer" .skill_instant true .buff_ids WH_Heretic_DMGH_B_4 WH_Heretic_DMGL_B_4 .on_hit true .on_miss true .has_description false
+effect: .name "WH Heretic instant DMG Buff 5" .target "performer" .skill_instant true .buff_ids WH_Heretic_DMGH_B_5 WH_Heretic_DMGL_B_5 .on_hit true .on_miss true .has_description false
+
+effect: .name "wh_heretic_chaser_TT_1_lv1"   .target "performer" .skill_instant true .buff_ids wh_heretic_chaser_TT_1_lv1 .on_hit true .on_miss true
+effect: .name "wh_heretic_chaser_TT_1_lv2"   .target "performer" .skill_instant true .buff_ids wh_heretic_chaser_TT_1_lv2 .on_hit true .on_miss true
+effect: .name "wh_heretic_chaser_TT_1_lv3"   .target "performer" .skill_instant true .buff_ids wh_heretic_chaser_TT_1_lv3 .on_hit true .on_miss true
+effect: .name "wh_heretic_chaser_TT_1_lv4"   .target "performer" .skill_instant true .buff_ids wh_heretic_chaser_TT_1_lv4 .on_hit true .on_miss true
+effect: .name "wh_heretic_chaser_TT_1_lv5"   .target "performer" .skill_instant true .buff_ids wh_heretic_chaser_TT_1_lv5 .on_hit true .on_miss true
+effect: .name "wh_heretic_chaser_TT_2_lv1"   .target "performer" .skill_instant true .buff_ids wh_heretic_chaser_TT_2_lv1 .on_hit true .on_miss true
+effect: .name "wh_heretic_chaser_TT_2_lv2"   .target "performer" .skill_instant true .buff_ids wh_heretic_chaser_TT_2_lv2 .on_hit true .on_miss true
+effect: .name "wh_heretic_chaser_TT_2_lv3"   .target "performer" .skill_instant true .buff_ids wh_heretic_chaser_TT_2_lv3 .on_hit true .on_miss true
+effect: .name "wh_heretic_chaser_TT_2_lv4"   .target "performer" .skill_instant true .buff_ids wh_heretic_chaser_TT_2_lv4 .on_hit true .on_miss true
+effect: .name "wh_heretic_chaser_TT_2_lv5"   .target "performer" .skill_instant true .buff_ids wh_heretic_chaser_TT_2_lv5 .on_hit true .on_miss true
+effect: .name "wh_heretic_inqui_TT_1_lv1"   .target "performer" .skill_instant true .buff_ids wh_heretic_inqui_TT_1_lv1 .on_hit true .on_miss true
+effect: .name "wh_heretic_inqui_TT_1_lv2"   .target "performer" .skill_instant true .buff_ids wh_heretic_inqui_TT_1_lv2 .on_hit true .on_miss true
+effect: .name "wh_heretic_inqui_TT_1_lv3"   .target "performer" .skill_instant true .buff_ids wh_heretic_inqui_TT_1_lv3 .on_hit true .on_miss true
+effect: .name "wh_heretic_inqui_TT_1_lv4"   .target "performer" .skill_instant true .buff_ids wh_heretic_inqui_TT_1_lv4 .on_hit true .on_miss true
+effect: .name "wh_heretic_inqui_TT_1_lv5"   .target "performer" .skill_instant true .buff_ids wh_heretic_inqui_TT_1_lv5 .on_hit true .on_miss true
+
+// Flense
+
+effect: .name "WH Flense Chase Bleed 1" .target "target" .chance 100% .dotBleed 3 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "WH Flense Chase Bleed 2" .target "target" .chance 110% .dotBleed 3 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "WH Flense Chase Bleed 3" .target "target" .chance 120% .dotBleed 4 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "WH Flense Chase Bleed 4" .target "target" .chance 130% .dotBleed 4 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "WH Flense Chase Bleed 5" .target "target" .chance 140% .dotBleed 5 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "WH Flense Inqui Bleed 1" .target "target" .chance 100% .dotBleed 4 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "WH Flense Inqui Bleed 2" .target "target" .chance 110% .dotBleed 4 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "WH Flense Inqui Bleed 3" .target "target" .chance 120% .dotBleed 5 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "WH Flense Inqui Bleed 4" .target "target" .chance 130% .dotBleed 5 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "WH Flense Inqui Bleed 5" .target "target" .chance 140% .dotBleed 6 .duration 3 .on_hit true .on_miss false .can_apply_on_death true .has_description false
+
+effect: .name "WH Flense Chase Bleed TT1" .target "performer" .skill_instant true .buff_ids wh_flense_chaser_TT_1_lv1 .on_hit true .on_miss true
+effect: .name "WH Flense Chase Bleed TT2" .target "performer" .skill_instant true .buff_ids wh_flense_chaser_TT_1_lv2 .on_hit true .on_miss true
+effect: .name "WH Flense Chase Bleed TT3" .target "performer" .skill_instant true .buff_ids wh_flense_chaser_TT_1_lv3 .on_hit true .on_miss true
+effect: .name "WH Flense Chase Bleed TT4" .target "performer" .skill_instant true .buff_ids wh_flense_chaser_TT_1_lv4 .on_hit true .on_miss true
+effect: .name "WH Flense Chase Bleed TT5" .target "performer" .skill_instant true .buff_ids wh_flense_chaser_TT_1_lv5 .on_hit true .on_miss true
+effect: .name "WH Flense Inqui Bleed TT1" .target "performer" .skill_instant true .buff_ids wh_flense_inqui_TT_1_lv1 wh_flense_inqui_TT_2_lv1 .on_hit true .on_miss true
+effect: .name "WH Flense Inqui Bleed TT2" .target "performer" .skill_instant true .buff_ids wh_flense_inqui_TT_1_lv2 wh_flense_inqui_TT_2_lv2 .on_hit true .on_miss true
+effect: .name "WH Flense Inqui Bleed TT3" .target "performer" .skill_instant true .buff_ids wh_flense_inqui_TT_1_lv3 wh_flense_inqui_TT_2_lv3 .on_hit true .on_miss true
+effect: .name "WH Flense Inqui Bleed TT4" .target "performer" .skill_instant true .buff_ids wh_flense_inqui_TT_1_lv4 wh_flense_inqui_TT_2_lv4 .on_hit true .on_miss true
+effect: .name "WH Flense Inqui Bleed TT5" .target "performer" .skill_instant true .buff_ids wh_flense_inqui_TT_1_lv5 wh_flense_inqui_TT_2_lv5 .on_hit true .on_miss true
+
+// Eternal Guard
+
+effect: .name "WH Guard Party Untag" .target "performer_group_other" .untag 1 .on_hit true .on_miss true
+effect: .name "WH Guard Self Mark" .target "performer" .tag 1 .duration 4 .on_hit true .on_miss true
+effect: .name "WH Guard Self DEF Buff 1" .target "performer" .duration 3 .combat_stat_buff 1 .defense_rating_add 0.09 .on_hit true .on_miss true
+effect: .name "WH Guard Self DEF Buff 2" .target "performer" .duration 3 .combat_stat_buff 1 .defense_rating_add 0.1 .on_hit true .on_miss true
+effect: .name "WH Guard Self DEF Buff 3" .target "performer" .duration 3 .combat_stat_buff 1 .defense_rating_add 0.11 .on_hit true .on_miss true
+effect: .name "WH Guard Self DEF Buff 4" .target "performer" .duration 3 .combat_stat_buff 1 .defense_rating_add 0.12 .on_hit true .on_miss true
+effect: .name "WH Guard Self DEF Buff 5" .target "performer" .duration 3 .combat_stat_buff 1 .defense_rating_add 0.13 .on_hit true .on_miss true
+
+// I Shall Judge You All
+
+effect: .name "WH Judge CRIT Multiplier Debuff" .target "performer" .skill_instant true .buff_ids WH_Judge_CRITMULTI_D .on_hit true .on_miss true
+effect: .name "WH Judge DMG Buff" .target "performer" .skill_instant true .buff_ids WH_Judge_DMGH_B WH_Judge_DMGL_B .on_hit true .on_miss true .has_description false
+effect: .name "WH Judge DMG Per Alive DeBuff" .target "performer" .skill_instant true .buff_ids WH_Judge_vs4_DMGH_D WH_Judge_vs4_DMGL_D WH_Judge_vs3_DMGH_D WH_Judge_vs3_DMGL_D WH_Judge_vs2_DMGH_D WH_Judge_vs2_DMGL_D .on_hit true .on_miss true .has_description false
+
+effect: .name "WH_judge_to_inqui" .target "performer" .skill_instant true .buff_ids WH_judge_to_inqui .on_hit true .on_miss true
+effect: .name "wh_judge_inqui_TT" .target "performer" .skill_instant true .buff_ids wh_judge_inqui_TT .on_hit true .on_miss true
+
+// Trinket Effects
+//-----------------------------
+
+effect: .name "Miller Common Summon Effectholder" .target "performer" .summon_count 1 .summon_limits 1 .summon_can_spawn_loot true .summon_monsters mr_pepper_B .summon_chances 1.0 .on_hit true .on_miss false .apply_once true .has_description false .queue false
+effect: .name "Miller Rare Blight" .target "target" .chance 110% .dotPoison 2 .duration 3 .on_hit true .on_miss false .queue false .can_apply_on_death true .has_description false
+effect: .name "Miller CC1 Stress Heal" .target "performer_group_other" .healstress 6 .on_hit true .on_miss false
+effect: .name "Miller CC2 STRESSRECV Buff" .target "target" .duration 3 .buff_type stress_dmg_received_percent .buff_amount -0.3 .on_hit true .on_miss true
+effect: .name "Miller CC2 HoT" .target "target" .dotHpHeal 1 .duration 2 .on_hit true .on_miss true
+effect: .name "Miller CC2 Refresh DayOff" .target "performer" .steal_buff_source_type bsrc_vampire .on_hit true .on_miss true .has_description false
+effect: .name "Miller CC2 TT" .target "performer" .skill_instant true .buff_ids TRINKET_miller_CC2_TT .on_hit true .on_miss true
+effect: .name "Miller SI Friendly Buff" .target "performer_group_other" .combat_stat_buff 1 .damage_high_multiply 0.1 .damage_low_multiply 0.1 .crit_chance_add 0.03 .on_hit false .on_miss true .apply_once false
+effect: .name "Miller SI Target Guard Break" .target "target" .clearguarded 1 .on_hit true .on_miss False
+effect: .name "Miller SI Target Guarding Break" .target "target" .clearguarding 1 .on_hit true .on_miss False .has_description false

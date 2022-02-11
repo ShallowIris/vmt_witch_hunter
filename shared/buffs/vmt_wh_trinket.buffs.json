@@ -1,0 +1,55 @@
+{
+   "buffs":
+   [
+      {
+         "id" : "TRINKET_miller_uncommon_HEALDOTDUR_B", "stat_type" : "hp_heal_dot_duration_percent", "stat_sub_type" : "", 
+         "amount" : 0.5, "remove_if_not_active" : false,
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0,  "string" : "" }
+      },
+      {
+         "id" : "TRINKET_miller_uncommon_HEAL_B", "stat_type" : "hp_heal_percent", "stat_sub_type" : "", 
+         "amount" : 0.25, "remove_if_not_active" : false,
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0,  "string" : "" }
+      },
+      {
+         "id" : "TRINKET_miller_rare_DEBUFF_B", "stat_type" : "debuff_chance", "stat_sub_type" : "", 
+         "amount" : 0.2, "remove_if_not_active" : false,
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0,  "string" : "" }
+      },
+      {
+         "id" : "TRINKET_miller_very_rare_meleeDMGH_B", "stat_type" : "combat_stat_multiply", "stat_sub_type" : "damage_high", 
+         "amount" : 0.2, "remove_if_not_active" : false,
+         "rule_type" : "meleeonly", "is_false_rule" : false, "rule_data" : { "float" : 0,  "string" : "" }
+      },
+      {
+         "id" : "TRINKET_miller_very_rare_meleeDMGL_B", "stat_type" : "combat_stat_multiply", "stat_sub_type" : "damage_low", 
+         "amount" : 0.2, "remove_if_not_active" : false,
+         "rule_type" : "meleeonly", "is_false_rule" : false, "rule_data" : { "float" : 0,  "string" : "" }
+      },
+      {
+         "id" : "TRINKET_miller_very_rare_meleeACC_B", "stat_type" : "combat_stat_add", "stat_sub_type" : "attack_rating", 
+         "amount" : 0.1, "remove_if_not_active" : false,
+         "rule_type" : "meleeonly", "is_false_rule" : false, "rule_data" : { "float" : 0,  "string" : "" }
+      },
+      {
+         "id" : "TRINKET_miller_very_rare_HEALDOTDUR_D", "stat_type" : "hp_heal_dot_duration_percent", "stat_sub_type" : "", 
+         "amount" : -0.5, "remove_if_not_active" : false,
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0,  "string" : "" }
+      },
+      {
+         "id" : "TRINKET_miller_CC1_vsHPBelow30_CRIT_B", "stat_type" : "combat_stat_add", "stat_sub_type" : "crit_chance", 
+         "amount" : 0.15, "remove_if_not_active" : false,
+         "rule_type" : "target_hpbelow", "is_false_rule" : false, "rule_data" : { "float" : 0.3, "string" : "" }
+      },
+      {
+         "id" : "SET_miller_CC_riposteDMGH_B", "stat_type" : "combat_stat_multiply", "stat_sub_type" : "damage_high", 
+         "amount" : 0.3, "remove_if_not_active" : false,
+         "rule_type" : "riposte", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
+      },
+      {
+         "id" : "SET_miller_CC_riposteDMGL_B", "stat_type" : "combat_stat_multiply", "stat_sub_type" : "damage_low", 
+         "amount" : 0.3, "remove_if_not_active" : false,
+         "rule_type" : "riposte", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
+      }
+   ]
+}

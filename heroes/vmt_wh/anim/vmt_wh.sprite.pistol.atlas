@@ -1,0 +1,27 @@
+
+vmt_wh.sprite.pistol.png
+size: 1028,754
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pistol
+  rotate: true
+  xy: 873, 131
+  size: 260, 153
+  orig: 260, 153
+  offset: 0, 0
+  index: -1
+sdw
+  rotate: false
+  xy: 873, 393
+  size: 65, 359
+  orig: 65, 359
+  offset: 0, 0
+  index: -1
+wh_pistol
+  rotate: true
+  xy: 2, 2
+  size: 750, 869
+  orig: 750, 869
+  offset: 0, 0
+  index: -1

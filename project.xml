@@ -2,8 +2,8 @@
 <project>
 	<PreviewIconFile>preview_icon.png</PreviewIconFile>
 	<ItemDescriptionShort/>
-	<ModDataPath>C:/Program Files (x86)/Steam/steamapps/common/DarkestDungeon/mods/miller_conversion/</ModDataPath>
-	<Title>The Miller Hero Mod</Title>
+	<ModDataPath>C:/Program Files (x86)/Steam/steamapps/common/DarkestDungeon/mods/vmt_witch_hunter/</ModDataPath>
+	<Title>Witch Hunter</Title>
 	<Language>english</Language>
 	<UpdateDetails/>
 	<Visibility>private</Visibility>
@@ -18,6 +18,5 @@
 		<Tags>Korean</Tags>
 	</Tags>
 	<ItemDescription/>
-	<PublishedFileId>2658110395</PublishedFileId>
 </project>
 
