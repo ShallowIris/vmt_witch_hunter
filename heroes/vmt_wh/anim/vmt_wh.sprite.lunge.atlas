@@ -1,0 +1,20 @@
+
+vmt_wh.sprite.lunge.png
+size: 583,435
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sdw
+  rotate: false
+  xy: 516, 74
+  size: 65, 359
+  orig: 65, 359
+  offset: 0, 0
+  index: -1
+wh2-lunge
+  rotate: false
+  xy: 2, 2
+  size: 512, 431
+  orig: 512, 431
+  offset: 0, 0
+  index: -1

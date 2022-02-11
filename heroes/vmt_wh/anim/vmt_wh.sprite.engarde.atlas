@@ -1,0 +1,13 @@
+
+vmt_wh.sprite.engarde.png
+size: 207,533
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+engarde
+  rotate: false
+  xy: 2, 2
+  size: 203, 529
+  orig: 203, 529
+  offset: 0, 0
+  index: -1
