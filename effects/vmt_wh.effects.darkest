@@ -17,12 +17,12 @@ effect: .name "wh_to_inquisitor" .target "performer" .set_mode wh_inquisitor .on
 // Witch Hunt
 
 effect: .name "WH Hunt Anti Corpse" .target "performer" .skill_instant true .buff_ids WH_Hunt_Stressheal_vsCorpse_D .on_hit true .on_miss false .buff_source_type bsrc_last_hero .has_description false
-effect: .name "WH Hunt SwapTarget StressHeal Debuff" .target "target" .swap_source_and_target true .chance 5000% .buff_ids WH_Hunt_Stressheal_D .on_hit true .on_miss false .queue false .buff_source_type bsrc_last_hero .has_description false
-effect: .name "WH Hunt StressHeal 1" .target "performer" .healstress 3 .on_hit true .on_miss false .queue true
-effect: .name "WH Hunt StressHeal 2" .target "performer" .healstress 3 .on_hit true .on_miss false .queue true
-effect: .name "WH Hunt StressHeal 3" .target "performer" .healstress 4 .on_hit true .on_miss false .queue true
-effect: .name "WH Hunt StressHeal 4" .target "performer" .healstress 4 .on_hit true .on_miss false .queue true
-effect: .name "WH Hunt StressHeal 5" .target "performer" .healstress 5 .on_hit true .on_miss false .queue true
+effect: .name "WH Hunt SwapTarget StressHeal Debuff" .target "target" .duration 1 .swap_source_and_target true .chance 5000% .buff_ids WH_Hunt_Stressheal_D .on_hit true .on_miss false .queue false .buff_source_type bsrc_last_hero .has_description false
+effect: .name "WH Hunt StressHeal 1" .target "performer_group" .healstress 3 .on_hit true .on_miss false .queue true
+effect: .name "WH Hunt StressHeal 2" .target "performer_group" .healstress 3 .on_hit true .on_miss false .queue true
+effect: .name "WH Hunt StressHeal 3" .target "performer_group" .healstress 4 .on_hit true .on_miss false .queue true
+effect: .name "WH Hunt StressHeal 4" .target "performer_group" .healstress 4 .on_hit true .on_miss false .queue true
+effect: .name "WH Hunt StressHeal 5" .target "performer_group" .healstress 5 .on_hit true .on_miss false .queue true
 effect: .name "WH Hunt Buff Clear" .target "performer" .steal_buff_source_type bsrc_last_hero .on_hit true .on_miss false .queue true .has_description false
 effect: .name "WH Hunt Mark Target"	.target "target" .tag 1 .duration 3	.on_hit true .on_miss false .has_description false
 effect: .name "WH Hunt instant DMG Debuff" .target "performer" .skill_instant true .buff_ids DMGH-50 DMGL-50 .on_hit true .on_miss true .has_description false

@@ -2,12 +2,12 @@
    "buffs":
    [      
       {
-         "id" : "WH_Hunt_Stressheal_D", "stat_type" : "stress_heal_received_percent", "stat_sub_type" : "",
+         "id" : "WH_Hunt_Stressheal_D", "stat_type" : "stress_heal_percent", "stat_sub_type" : "",
          "amount" : -10, "remove_if_not_active" : false,
          "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0,  "string" : "" }
 	   },
       {
-         "id" : "WH_Hunt_Stressheal_vsCorpse_D", "stat_type" : "stress_heal_received_percent", "stat_sub_type" : "",
+         "id" : "WH_Hunt_Stressheal_vsCorpse_D", "stat_type" : "stress_heal_percent", "stat_sub_type" : "",
          "amount" : -10, "remove_if_not_active" : false,
          "rule_type" : "monsterType", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "corpse" }
 	   },
