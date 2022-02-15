@@ -8,21 +8,20 @@
          "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
       },
       {
-         "id" : "WH_all_stance_instant", "stat_type" : "upgrade_discount", "stat_sub_type" : "WH_all_stance_instant",
+         "id" : "WH_patch_freeaction_TT", "stat_type" : "upgrade_discount", "stat_sub_type" : "WH_patch_freeaction_TT",
+         "amount" : 1, "remove_if_not_active" : false, 
+         "duration" : 1, "duration_type" : "after_turn", 
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
+      },
+      {
+         "id" : "WH_guard_freeaction_TT", "stat_type" : "upgrade_discount", "stat_sub_type" : "WH_guard_freeaction_TT",
          "amount" : 1, "remove_if_not_active" : false,
          "duration" : 1, "duration_type" : "after_turn", 
          "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
       },
       {
-         "id" : "WH_to_chaser_TT", "stat_type" : "upgrade_discount", "stat_sub_type" : "WH_to_chaser_TT",
-         "amount" : 1, "remove_if_not_active" : false,
-         "duration" : 1, "duration_type" : "after_turn", 
-         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
-      },
-      {
-         "id" : "WH_to_inqui_TT", "stat_type" : "upgrade_discount", "stat_sub_type" : "WH_to_inqui_TT",
-         "amount" : 1, "remove_if_not_active" : false,
-         "duration" : 1, "duration_type" : "after_turn", 
+         "id" : "WH_freeaction_disable_buff_TT", "stat_type" : "upgrade_discount", "stat_sub_type" : "WH_freeaction_disable_buff_TT",
+         "amount" : -1, "remove_if_not_active" : false, "is_clear_debuff_valid": false,
          "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
       },
 
@@ -56,258 +55,53 @@
          "duration" : 1, "duration_type" : "after_turn", 
          "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
       },
+
       {
-         "id" : "wh_hunt_chaser_TT_1", "stat_type" : "upgrade_discount", "stat_sub_type" : "wh_hunt_chaser_TT_1",
+         "id" : "WH_takeaim_TT", "stat_type" : "upgrade_discount", "stat_sub_type" : "WH_takeaim_TT",
          "amount" : 1, "remove_if_not_active" : false,
          "duration" : 1, "duration_type" : "after_turn", 
          "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
       },
       {
-         "id" : "wh_hunt_chaser_TT_2", "stat_type" : "upgrade_discount", "stat_sub_type" : "wh_hunt_chaser_TT_2",
-         "amount" : 1, "remove_if_not_active" : false,
+         "id" : "WH_takeaim_buff_TT", "stat_type" : "upgrade_discount", "stat_sub_type" : "WH_takeaim_buff_TT",
+         "amount" : -1, "remove_if_not_active" : false, "is_clear_debuff_valid": false,
+         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
+      },
+
+      
+      {
+         "id" : "WH_patch_selfheal_TT_1", "stat_type" : "upgrade_discount", "stat_sub_type" : "WH_patch_selfheal_TT_1",
+         "amount" : 1, "remove_if_not_active" : false, 
          "duration" : 1, "duration_type" : "after_turn", 
          "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
       },
       {
-         "id" : "wh_hunt_inqui_TT_1_lv1", "stat_type" : "upgrade_discount", "stat_sub_type" : "wh_hunt_inqui_TT_1_lv1",
-         "amount" : 1, "remove_if_not_active" : false,
+         "id" : "WH_patch_selfheal_TT_2", "stat_type" : "upgrade_discount", "stat_sub_type" : "WH_patch_selfheal_TT_2",
+         "amount" : 1, "remove_if_not_active" : false, 
          "duration" : 1, "duration_type" : "after_turn", 
          "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
       },
       {
-         "id" : "wh_hunt_inqui_TT_1_lv2", "stat_type" : "upgrade_discount", "stat_sub_type" : "wh_hunt_inqui_TT_1_lv2",
-         "amount" : 1, "remove_if_not_active" : false,
+         "id" : "WH_patch_selfheal_TT_3", "stat_type" : "upgrade_discount", "stat_sub_type" : "WH_patch_selfheal_TT_3",
+         "amount" : 1, "remove_if_not_active" : false, 
          "duration" : 1, "duration_type" : "after_turn", 
          "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
       },
       {
-         "id" : "wh_hunt_inqui_TT_1_lv3", "stat_type" : "upgrade_discount", "stat_sub_type" : "wh_hunt_inqui_TT_1_lv3",
-         "amount" : 1, "remove_if_not_active" : false,
+         "id" : "WH_patch_selfheal_TT_4", "stat_type" : "upgrade_discount", "stat_sub_type" : "WH_patch_selfheal_TT_4",
+         "amount" : 1, "remove_if_not_active" : false, 
          "duration" : 1, "duration_type" : "after_turn", 
          "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
       },
       {
-         "id" : "wh_hunt_inqui_TT_1_lv4", "stat_type" : "upgrade_discount", "stat_sub_type" : "wh_hunt_inqui_TT_1_lv4",
-         "amount" : 1, "remove_if_not_active" : false,
-         "duration" : 1, "duration_type" : "after_turn", 
-         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
-      },
-      {
-         "id" : "wh_hunt_inqui_TT_1_lv5", "stat_type" : "upgrade_discount", "stat_sub_type" : "wh_hunt_inqui_TT_1_lv5",
-         "amount" : 1, "remove_if_not_active" : false,
+         "id" : "WH_patch_selfheal_TT_5", "stat_type" : "upgrade_discount", "stat_sub_type" : "WH_patch_selfheal_TT_5",
+         "amount" : 1, "remove_if_not_active" : false, 
          "duration" : 1, "duration_type" : "after_turn", 
          "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
       },
 
       {
-         "id" : "HW_takeaim_TT", "stat_type" : "upgrade_discount", "stat_sub_type" : "HW_takeaim_TT",
-         "amount" : 1, "remove_if_not_active" : false,
-         "duration" : 1, "duration_type" : "after_turn", 
-         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
-      },
-      {
-         "id" : "HW_takeaim_buff_TT", "stat_type" : "upgrade_discount", "stat_sub_type" : "HW_takeaim_buff_TT",
-         "amount" : -1, "remove_if_not_active" : false,
-         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
-      },
-
-      {
-         "id" : "wh_heretic_chaser_TT_1_lv1", "stat_type" : "upgrade_discount", "stat_sub_type" : "wh_heretic_chaser_TT_1_lv1",
-         "amount" : 1, "remove_if_not_active" : false,
-         "duration" : 1, "duration_type" : "after_turn", 
-         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
-      },
-      {
-         "id" : "wh_heretic_chaser_TT_1_lv2", "stat_type" : "upgrade_discount", "stat_sub_type" : "wh_heretic_chaser_TT_1_lv2",
-         "amount" : 1, "remove_if_not_active" : false,
-         "duration" : 1, "duration_type" : "after_turn", 
-         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
-      },
-      {
-         "id" : "wh_heretic_chaser_TT_1_lv3", "stat_type" : "upgrade_discount", "stat_sub_type" : "wh_heretic_chaser_TT_1_lv3",
-         "amount" : 1, "remove_if_not_active" : false,
-         "duration" : 1, "duration_type" : "after_turn", 
-         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
-      },
-      {
-         "id" : "wh_heretic_chaser_TT_1_lv4", "stat_type" : "upgrade_discount", "stat_sub_type" : "wh_heretic_chaser_TT_1_lv4",
-         "amount" : 1, "remove_if_not_active" : false,
-         "duration" : 1, "duration_type" : "after_turn", 
-         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
-      },
-      {
-         "id" : "wh_heretic_chaser_TT_1_lv5", "stat_type" : "upgrade_discount", "stat_sub_type" : "wh_heretic_chaser_TT_1_lv5",
-         "amount" : 1, "remove_if_not_active" : false,
-         "duration" : 1, "duration_type" : "after_turn", 
-         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
-      },
-      {
-         "id" : "wh_heretic_chaser_TT_2_lv1", "stat_type" : "upgrade_discount", "stat_sub_type" : "wh_heretic_chaser_TT_2_lv1",
-         "amount" : 1, "remove_if_not_active" : false,
-         "duration" : 1, "duration_type" : "after_turn", 
-         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
-      },
-      {
-         "id" : "wh_heretic_chaser_TT_2_lv2", "stat_type" : "upgrade_discount", "stat_sub_type" : "wh_heretic_chaser_TT_2_lv2",
-         "amount" : 1, "remove_if_not_active" : false,
-         "duration" : 1, "duration_type" : "after_turn", 
-         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
-      },
-      {
-         "id" : "wh_heretic_chaser_TT_2_lv3", "stat_type" : "upgrade_discount", "stat_sub_type" : "wh_heretic_chaser_TT_2_lv3",
-         "amount" : 1, "remove_if_not_active" : false,
-         "duration" : 1, "duration_type" : "after_turn", 
-         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
-      },
-      {
-         "id" : "wh_heretic_chaser_TT_2_lv4", "stat_type" : "upgrade_discount", "stat_sub_type" : "wh_heretic_chaser_TT_2_lv4",
-         "amount" : 1, "remove_if_not_active" : false,
-         "duration" : 1, "duration_type" : "after_turn", 
-         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
-      },
-      {
-         "id" : "wh_heretic_chaser_TT_2_lv5", "stat_type" : "upgrade_discount", "stat_sub_type" : "wh_heretic_chaser_TT_2_lv5",
-         "amount" : 1, "remove_if_not_active" : false,
-         "duration" : 1, "duration_type" : "after_turn", 
-         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
-      },      
-      {
-         "id" : "wh_heretic_inqui_TT_1_lv1", "stat_type" : "upgrade_discount", "stat_sub_type" : "wh_heretic_inqui_TT_1_lv1",
-         "amount" : 1, "remove_if_not_active" : false,
-         "duration" : 1, "duration_type" : "after_turn", 
-         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
-      },
-      {
-         "id" : "wh_heretic_inqui_TT_1_lv2", "stat_type" : "upgrade_discount", "stat_sub_type" : "wh_heretic_inqui_TT_1_lv2",
-         "amount" : 1, "remove_if_not_active" : false,
-         "duration" : 1, "duration_type" : "after_turn", 
-         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
-      },
-      {
-         "id" : "wh_heretic_inqui_TT_1_lv3", "stat_type" : "upgrade_discount", "stat_sub_type" : "wh_heretic_inqui_TT_1_lv3",
-         "amount" : 1, "remove_if_not_active" : false,
-         "duration" : 1, "duration_type" : "after_turn", 
-         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
-      },
-      {
-         "id" : "wh_heretic_inqui_TT_1_lv4", "stat_type" : "upgrade_discount", "stat_sub_type" : "wh_heretic_inqui_TT_1_lv4",
-         "amount" : 1, "remove_if_not_active" : false,
-         "duration" : 1, "duration_type" : "after_turn", 
-         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
-      },
-      {
-         "id" : "wh_heretic_inqui_TT_1_lv5", "stat_type" : "upgrade_discount", "stat_sub_type" : "wh_heretic_inqui_TT_1_lv5",
-         "amount" : 1, "remove_if_not_active" : false,
-         "duration" : 1, "duration_type" : "after_turn", 
-         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
-      },
-
-      {
-         "id" : "WH_takeaim_to_inqui", "stat_type" : "upgrade_discount", "stat_sub_type" : "WH_takeaim_to_inqui",
-         "amount" : 1, "remove_if_not_active" : false,
-         "duration" : 1, "duration_type" : "after_turn", 
-         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
-      },
-
-      {
-         "id" : "wh_flense_chaser_TT_1_lv1", "stat_type" : "upgrade_discount", "stat_sub_type" : "wh_flense_chaser_TT_1_lv1",
-         "amount" : 1, "remove_if_not_active" : false,
-         "duration" : 1, "duration_type" : "after_turn", 
-         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
-      },
-      {
-         "id" : "wh_flense_chaser_TT_1_lv2", "stat_type" : "upgrade_discount", "stat_sub_type" : "wh_flense_chaser_TT_1_lv2",
-         "amount" : 1, "remove_if_not_active" : false,
-         "duration" : 1, "duration_type" : "after_turn", 
-         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
-      },
-      {
-         "id" : "wh_flense_chaser_TT_1_lv3", "stat_type" : "upgrade_discount", "stat_sub_type" : "wh_flense_chaser_TT_1_lv3",
-         "amount" : 1, "remove_if_not_active" : false,
-         "duration" : 1, "duration_type" : "after_turn", 
-         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
-      },
-      {
-         "id" : "wh_flense_chaser_TT_1_lv4", "stat_type" : "upgrade_discount", "stat_sub_type" : "wh_flense_chaser_TT_1_lv4",
-         "amount" : 1, "remove_if_not_active" : false,
-         "duration" : 1, "duration_type" : "after_turn", 
-         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
-      },
-      {
-         "id" : "wh_flense_chaser_TT_1_lv5", "stat_type" : "upgrade_discount", "stat_sub_type" : "wh_flense_chaser_TT_1_lv5",
-         "amount" : 1, "remove_if_not_active" : false,
-         "duration" : 1, "duration_type" : "after_turn", 
-         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
-      },
-      {
-         "id" : "wh_flense_inqui_TT_1_lv1", "stat_type" : "upgrade_discount", "stat_sub_type" : "wh_flense_inqui_TT_1_lv1",
-         "amount" : 1, "remove_if_not_active" : false,
-         "duration" : 1, "duration_type" : "after_turn", 
-         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
-      },
-      {
-         "id" : "wh_flense_inqui_TT_1_lv2", "stat_type" : "upgrade_discount", "stat_sub_type" : "wh_flense_inqui_TT_1_lv2",
-         "amount" : 1, "remove_if_not_active" : false,
-         "duration" : 1, "duration_type" : "after_turn", 
-         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
-      },
-      {
-         "id" : "wh_flense_inqui_TT_1_lv3", "stat_type" : "upgrade_discount", "stat_sub_type" : "wh_flense_inqui_TT_1_lv3",
-         "amount" : 1, "remove_if_not_active" : false,
-         "duration" : 1, "duration_type" : "after_turn", 
-         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
-      },
-      {
-         "id" : "wh_flense_inqui_TT_1_lv4", "stat_type" : "upgrade_discount", "stat_sub_type" : "wh_flense_inqui_TT_1_lv4",
-         "amount" : 1, "remove_if_not_active" : false,
-         "duration" : 1, "duration_type" : "after_turn", 
-         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
-      },
-      {
-         "id" : "wh_flense_inqui_TT_1_lv5", "stat_type" : "upgrade_discount", "stat_sub_type" : "wh_flense_inqui_TT_1_lv5",
-         "amount" : 1, "remove_if_not_active" : false,
-         "duration" : 1, "duration_type" : "after_turn", 
-         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
-      },
-      {
-         "id" : "wh_flense_inqui_TT_2_lv1", "stat_type" : "upgrade_discount", "stat_sub_type" : "wh_flense_inqui_TT_2_lv1",
-         "amount" : 1, "remove_if_not_active" : false,
-         "duration" : 1, "duration_type" : "after_turn", 
-         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
-      },
-      {
-         "id" : "wh_flense_inqui_TT_2_lv2", "stat_type" : "upgrade_discount", "stat_sub_type" : "wh_flense_inqui_TT_2_lv2",
-         "amount" : 1, "remove_if_not_active" : false,
-         "duration" : 1, "duration_type" : "after_turn", 
-         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
-      },
-      {
-         "id" : "wh_flense_inqui_TT_2_lv3", "stat_type" : "upgrade_discount", "stat_sub_type" : "wh_flense_inqui_TT_2_lv3",
-         "amount" : 1, "remove_if_not_active" : false,
-         "duration" : 1, "duration_type" : "after_turn", 
-         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
-      },
-      {
-         "id" : "wh_flense_inqui_TT_2_lv4", "stat_type" : "upgrade_discount", "stat_sub_type" : "wh_flense_inqui_TT_2_lv4",
-         "amount" : 1, "remove_if_not_active" : false,
-         "duration" : 1, "duration_type" : "after_turn", 
-         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
-      },
-      {
-         "id" : "wh_flense_inqui_TT_2_lv5", "stat_type" : "upgrade_discount", "stat_sub_type" : "wh_flense_inqui_TT_2_lv5",
-         "amount" : 1, "remove_if_not_active" : false,
-         "duration" : 1, "duration_type" : "after_turn", 
-         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
-      },
-
-      {
-         "id" : "WH_judge_to_inqui", "stat_type" : "upgrade_discount", "stat_sub_type" : "WH_judge_to_inqui",
-         "amount" : 1, "remove_if_not_active" : false,
-         "duration" : 1, "duration_type" : "after_turn", 
-         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }
-      },
-      {
-         "id" : "wh_judge_inqui_TT", "stat_type" : "upgrade_discount", "stat_sub_type" : "wh_judge_inqui_TT",
+         "id" : "WH_judge_TT", "stat_type" : "upgrade_discount", "stat_sub_type" : "WH_judge_TT",
          "amount" : 1, "remove_if_not_active" : false,
          "duration" : 1, "duration_type" : "after_turn", 
          "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "" }

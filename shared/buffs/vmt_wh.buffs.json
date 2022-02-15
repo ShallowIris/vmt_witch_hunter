@@ -1,6 +1,13 @@
 {
    "buffs":
-   [      
+   [
+      {
+			"id": "WH_freeaction_reload",	"stat_type": "disable_combat_skill_attribute", "stat_sub_type": "daze",
+			"amount": 1, "remove_if_not_active": false, "remove_on_battle_complete": true,
+			"rule_type": "always", "is_false_rule": false, "rule_data": { "float": 0, "string": "" },
+			"is_clear_debuff_valid": false, "has_description": false
+      },
+
       {
          "id" : "WH_Hunt_Stressheal_D", "stat_type" : "stress_heal_percent", "stat_sub_type" : "",
          "amount" : -10, "remove_if_not_active" : false,
@@ -11,68 +18,37 @@
          "amount" : -10, "remove_if_not_active" : false,
          "rule_type" : "monsterType", "is_false_rule" : false, "rule_data" : { "float" : 0, "string" : "corpse" }
 	   },
+      {
+         "id" : "WH_Hunt_DMGH_vsMan_B", "stat_type" : "combat_stat_multiply", "stat_sub_type" : "damage_high", 
+         "amount" : 0.3, "remove_if_not_active" : false,
+         "rule_type" : "monsterType", "is_false_rule" : false, "rule_data" : { "float" : 0,  "string" : "man" }
+	   },
+      {
+         "id" : "WH_Hunt_DMGL_vsMan_B", "stat_type" : "combat_stat_multiply", "stat_sub_type" : "damage_low", 
+         "amount" : 0.3, "remove_if_not_active" : false,
+         "rule_type" : "monsterType", "is_false_rule" : false, "rule_data" : { "float" : 0,  "string" : "man" }
+	   },
+      {
+         "id" : "WH_Hunt_DMGH_vsUnholy_B", "stat_type" : "combat_stat_multiply", "stat_sub_type" : "damage_high", 
+         "amount" : 0.3, "remove_if_not_active" : false,
+         "rule_type" : "monsterType", "is_false_rule" : false, "rule_data" : { "float" : 0,  "string" : "unholy" }
+	   },
+      {
+         "id" : "WH_Hunt_DMGL_vsUnholy_B", "stat_type" : "combat_stat_multiply", "stat_sub_type" : "damage_low", 
+         "amount" : 0.3, "remove_if_not_active" : false,
+         "rule_type" : "monsterType", "is_false_rule" : false, "rule_data" : { "float" : 0,  "string" : "unholy" }
+	   },
 
       {
-			"id": "HW_takeaim_reload",	"stat_type": "disable_combat_skill_attribute", "stat_sub_type": "poison",
+			"id": "WH_takeaim_reload",	"stat_type": "disable_combat_skill_attribute", "stat_sub_type": "poison",
 			"amount": 1, "remove_if_not_active": false, "remove_on_battle_complete": true,
 			"rule_type": "always", "is_false_rule": false, "rule_data": { "float": 0, "string": "" },
 			"is_clear_debuff_valid": false, "has_description": false
       },
 
       {
-         "id" : "WH_Heretic_DMGH_B_1", "stat_type" : "combat_stat_multiply", "stat_sub_type" : "damage_high", 
-         "amount" : 0.6, "remove_if_not_active" : false,
-         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0,  "string" : "" }
-	   },
-      {
-         "id" : "WH_Heretic_DMGL_B_1", "stat_type" : "combat_stat_multiply", "stat_sub_type" : "damage_low", 
-         "amount" : 0.6, "remove_if_not_active" : false,
-         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0,  "string" : "" }
-	   },
-      {
-         "id" : "WH_Heretic_DMGH_B_2", "stat_type" : "combat_stat_multiply", "stat_sub_type" : "damage_high", 
-         "amount" : 0.65, "remove_if_not_active" : false,
-         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0,  "string" : "" }
-	   },
-      {
-         "id" : "WH_Heretic_DMGL_B_2", "stat_type" : "combat_stat_multiply", "stat_sub_type" : "damage_low", 
-         "amount" : 0.65, "remove_if_not_active" : false,
-         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0,  "string" : "" }
-	   },
-      {
-         "id" : "WH_Heretic_DMGH_B_3", "stat_type" : "combat_stat_multiply", "stat_sub_type" : "damage_high", 
-         "amount" : 0.7, "remove_if_not_active" : false,
-         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0,  "string" : "" }
-	   },
-      {
-         "id" : "WH_Heretic_DMGL_B_3", "stat_type" : "combat_stat_multiply", "stat_sub_type" : "damage_low", 
-         "amount" : 0.7, "remove_if_not_active" : false,
-         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0,  "string" : "" }
-	   },
-      {
-         "id" : "WH_Heretic_DMGH_B_4", "stat_type" : "combat_stat_multiply", "stat_sub_type" : "damage_high", 
-         "amount" : 0.75, "remove_if_not_active" : false,
-         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0,  "string" : "" }
-	   },
-      {
-         "id" : "WH_Heretic_DMGL_B_4", "stat_type" : "combat_stat_multiply", "stat_sub_type" : "damage_low", 
-         "amount" : 0.75, "remove_if_not_active" : false,
-         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0,  "string" : "" }
-	   },
-      {
-         "id" : "WH_Heretic_DMGH_B_5", "stat_type" : "combat_stat_multiply", "stat_sub_type" : "damage_high", 
-         "amount" : 0.8, "remove_if_not_active" : false,
-         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0,  "string" : "" }
-	   },
-      {
-         "id" : "WH_Heretic_DMGL_B_5", "stat_type" : "combat_stat_multiply", "stat_sub_type" : "damage_low", 
-         "amount" : 0.8, "remove_if_not_active" : false,
-         "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0,  "string" : "" }
-	   },
-
-      {
          "id" : "WH_Judge_CRITMULTI_D", "stat_type" : "combat_stat_multiply", "stat_sub_type" : "crit_chance", 
-         "amount" : -0.7, "remove_if_not_active" : false,
+         "amount" : -0.6, "remove_if_not_active" : false,
          "rule_type" : "always", "is_false_rule" : false, "rule_data" : { "float" : 0,  "string" : "" }
 	   },
       {
